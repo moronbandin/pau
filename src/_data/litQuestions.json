@@ -1,0 +1,1707 @@
+{
+  "meta": {
+    "totalSittings": 19,
+    "coverage": "2010–2026",
+    "note": "As porcentaxes indican en cantas convocatorias reais de exame (sobre 19 convocatorias distintas entre 2010 e 2026, etapas LOE/LOMCE-ABAU/LOMLOE-PAU) apareceu ese autor/obra ou esa formulación concreta de pregunta, contando sobre os PDFs oficiais reais do arquivo histórico da CIUG. Non se inclúen os exames anteriores a 2010 (etapa LOGSE), cuxo formato de 'cultura clásica' non é comparable. Os textos das preguntas son cita literal (ou practicamente literal, tras limpar numeración e anotacións de puntuación) do exame orixinal, nunca invención. Cada ano é clicable e abre o PDF real dese exame.",
+    "currentNote": "Marcados coma \"Vixente este curso\" só os temas que están na lectura obrigatoria actual segundo as instrucións da CIUG (Latín: Plauto, Cicerón, Tito Livio, Virxilio, Horacio — os 5 vixentes; Grego: Ilíada, lírica arcaica, Edipo Rei e Asemblea de mulleres). Os demais temas aparecen no arquivo histórico porque caeron en anos con currículo distinto — consúltanse coma referencia, pero non forman parte da lectura obrigatoria deste curso."
+  },
+  "latin": [
+    {
+      "key": "teatro-plauto",
+      "label": "Plauto e a comedia latina",
+      "author": "Plauto",
+      "pct": 84,
+      "sittingsCount": 16,
+      "current": true,
+      "questions": [
+        {
+          "text": "Sintetice os principais temas da comedia plautina",
+          "pct": 47,
+          "sittingsCount": 9,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2011_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2015_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2017_combinada.pdf"
+            },
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2018_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2021_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/latin/2025_ordinaria.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/latin/2026_extraordinaria.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/latin/2026_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Principais temas das comedias de Plauto",
+          "pct": 42,
+          "sittingsCount": 8,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2010_combinada.pdf"
+            },
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2011_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2014_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2016_combinada.pdf"
+            },
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2018_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2024_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/latin/2025_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Resúmase brevemente o argumento da comedia de Plauto estudada ou da película Golfus de",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2016_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Cítense tres comedias de Plauto e resúmase o seu argumento",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2019_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oratoria-ciceron",
+      "label": "Cicerón e a oratoria",
+      "author": "Cicerón",
+      "pct": 74,
+      "sittingsCount": 14,
+      "current": true,
+      "questions": [
+        {
+          "text": "Principais características dos discursos de Cicerón",
+          "pct": 26,
+          "sittingsCount": 5,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2011_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2014_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "As partes habituais nos discursos de Cicerón",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2015_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2019_combinada.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/latin/2026_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Os tratados sobre retórica de Cicerón",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2010_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2017_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2022_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Tipos de discursos escritos por Cicerón e algunhas obras representativas",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Cítense tres discursos importantes de Cicerón e coméntese brevemente o seu contido",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2018_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "A produción oratoria de Cicerón",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2010_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "historiografia-tito-livio",
+      "label": "Tito Livio e a historiografía",
+      "author": "Tito Livio",
+      "pct": 53,
+      "sittingsCount": 10,
+      "current": true,
+      "questions": [
+        {
+          "text": "Principais características da obra de Tito Livio",
+          "pct": 47,
+          "sittingsCount": 9,
+          "sittings": [
+            {
+              "ano": 2012,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2012_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2014_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2016_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2017_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2021_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2024_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/latin/2025_extraordinaria.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/latin/2025_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Resúmase y coméntese brevemente la historia de Lucrecia narrada por Tito Livio (I, 57-58)",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2010_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "epica-virxilio",
+      "label": "Virxilio e a épica",
+      "author": "Virxilio",
+      "pct": 53,
+      "sittingsCount": 10,
+      "current": true,
+      "questions": [
+        {
+          "text": "Principais características da Eneida",
+          "pct": 32,
+          "sittingsCount": 6,
+          "sittings": [
+            {
+              "ano": 2012,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2012_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2015_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2019_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2021_combinada.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/latin/2026_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "A obra épica de Virxilio",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2014_combinada.pdf"
+            },
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2018_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2021_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Contido e estrutura da Eneida de Virxilio",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2023_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lirica-horacio",
+      "label": "Horacio e a lírica",
+      "author": "Horacio",
+      "pct": 47,
+      "sittingsCount": 9,
+      "current": true,
+      "questions": [
+        {
+          "text": "Principais temas da poesía lírica de Horacio",
+          "pct": 26,
+          "sittingsCount": 5,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2011_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2022_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/latin/2025_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "A poesía lírica de Horacio",
+          "pct": 26,
+          "sittingsCount": 5,
+          "sittings": [
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2016_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2017_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2019_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2020_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Horacio (Odas e Épodos): temas, modelos, forma, lingua-estilo, etc",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2013_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/latin/2017_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "greek": [
+    {
+      "key": "homero-iliada",
+      "label": "Homero e a Ilíada",
+      "author": "Homero",
+      "pct": 84,
+      "sittingsCount": 16,
+      "current": true,
+      "questions": [
+        {
+          "text": "Consecuencias da cólera de Aquiles",
+          "pct": 26,
+          "sittingsCount": 5,
+          "sittings": [
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Características do heroe homérico",
+          "pct": 26,
+          "sittingsCount": 5,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2012,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2012_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2013_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Papel de Patroclo na Ilíada",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/grego/2025_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Cal é o plan de Zeus na Iliada?",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/grego/2025_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "O heroe homérico: liñas principais da súa acción e personalidade",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2011_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2013_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Encontro entre Héctor e Andrómaca",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Despedida de Heitor e Andrómaca",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Que apoios receben aqueos e troianos de parte dos deuses?",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2018_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sofocles-edipo",
+      "label": "Sófocles e Edipo Rei",
+      "author": "Sófocles",
+      "pct": 74,
+      "sittingsCount": 14,
+      "current": true,
+      "questions": [
+        {
+          "text": "O mito de Edipo",
+          "pct": 32,
+          "sittingsCount": 6,
+          "sittings": [
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Personajes de Edipo Rey",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2018_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Liñas básicas do mito de Edipo e o seu significado tráxico",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2011_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2013_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Explique a relación de Edipo e Iocasta en Edipo rei e as consecuencias que tivo",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2025,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/grego/2025_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Como e por que accede Edipo ó trono de Tebas?",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "O crime cometido por Edipo, coñécese desde o principio da obra de Sófocles?",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Características do heroe en Edipo Rei",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Edipo e Iocasta en Edipo Rei",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lirica-arcaica",
+      "label": "A lírica arcaica (Safo, Alceo, Anacreonte)",
+      "author": "Lírica arcaica",
+      "pct": 63,
+      "sittingsCount": 12,
+      "current": true,
+      "questions": [
+        {
+          "text": "Cales son os temas fundamentais da poesía de Safo?",
+          "pct": 47,
+          "sittingsCount": 9,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2025,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2025_extraordinaria.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2026_extraordinaria.pdf"
+            },
+            {
+              "ano": 2026,
+              "convocatoria": "ordinaria",
+              "chip": "Ord",
+              "file": "/exames/grego/2026_ordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Temas e ambientes nos poemas de Alceo",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2011_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Características da poesía de Safo",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Características da poesía de Anacreonte/ Características de la poesía de Anacreonte",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Diferenzas e semellanzas entre Safo, Alceo e Arquíloco",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "aristofanes-comedia",
+      "label": "Aristófanes e a comedia",
+      "author": "Aristófanes",
+      "pct": 37,
+      "sittingsCount": 7,
+      "current": true,
+      "questions": [
+        {
+          "text": "Cales son as cuestións principais que se presentan en As Nubes de Aristófanes?",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2018_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Sócrates e a súa escola en As Nubes de Aristófanes",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Tema e argumento de Asembleístas",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Cal é o problema das mulleres en Asembleístas e como o solucionan?",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "O plan de Praxágona nas Asembleístas",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "socrates-platon",
+      "label": "Sócrates e Platón",
+      "author": "Platón",
+      "pct": 63,
+      "sittingsCount": 12,
+      "current": false,
+      "questions": [
+        {
+          "text": "Causas da morte de Sócrates",
+          "pct": 42,
+          "sittingsCount": 8,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2011_combinada.pdf"
+            },
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2017_combinada.pdf"
+            },
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2018_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Liñas principais do ensino de Sócrates",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2011,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2011_combinada.pdf"
+            },
+            {
+              "ano": 2013,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2013_combinada.pdf"
+            },
+            {
+              "ano": 2017,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2017_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Trazos fundamentais do pensamento de Platón",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2020,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2020_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Proceso de Sócrates: causas y desenlace",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2019,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2019_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Que relación tivo Xenofonte con Sócrates e en que obras fala desa relación?",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Últimas visitas a Sócrates no cárcere (Fala Fedón)",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Ideoloxía política de Platón",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Cómo conocemos el pensamiento de Sócrates, si no dejó nada escrito?",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2018,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2018_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "xenofonte-obras",
+      "label": "Xenofonte (Anábase / Helénicas)",
+      "author": "Xenofonte",
+      "pct": 47,
+      "sittingsCount": 9,
+      "current": false,
+      "questions": [
+        {
+          "text": "O conflito bélico nas Helénicas",
+          "pct": 21,
+          "sittingsCount": 4,
+          "sittings": [
+            {
+              "ano": 2014,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2014_combinada.pdf"
+            },
+            {
+              "ano": 2015,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2015_combinada.pdf"
+            },
+            {
+              "ano": 2016,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2016_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Que narra Xenofonte nas Helénicas?",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2010,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2010_combinada.pdf"
+            },
+            {
+              "ano": 2021,
+              "convocatoria": "extraordinaria",
+              "chip": "Extr.",
+              "file": "/exames/grego/2021_extraordinaria.pdf"
+            },
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Argumento das Helénicas",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Conflito bélico no comezo das Helénicas",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Conflito entre Atenas e Esparta nas Helénicas",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "As guerras do Peloponeso nas Helénicas",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Gregos e persas na Anábase",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mitoloxia-apolodoro",
+      "label": "Apolodoro e a mitoloxía (Heracles, Urano)",
+      "author": "Apolodoro",
+      "pct": 16,
+      "sittingsCount": 3,
+      "current": false,
+      "questions": [
+        {
+          "text": "O heroe Heracles",
+          "pct": 16,
+          "sittingsCount": 3,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            },
+            {
+              "ano": 2024,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2024_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Características do heroe Heracles",
+          "pct": 11,
+          "sittingsCount": 2,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            },
+            {
+              "ano": 2023,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2023_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Heracles vai en busca da Hidra de Lerna",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        },
+        {
+          "text": "Fillos de Urano",
+          "pct": 5,
+          "sittingsCount": 1,
+          "sittings": [
+            {
+              "ano": 2022,
+              "convocatoria": "combinada",
+              "chip": "Ord + Extr.",
+              "file": "/exames/grego/2022_combinada.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

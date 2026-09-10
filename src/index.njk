@@ -1,0 +1,62 @@
+---
+layout: base.njk
+title: Inicio
+description: Recursos e xerador de exames para a PAU de Latín e Grego. Textos por autor, latinismos, helenismos, literatura e exames.
+---
+{% from "icons.njk" import icon %}
+<section class="hero">
+  <div class="wrap">
+    <h1>Todo o material da PAU de Clásicas, nun só sitio</h1>
+    <p>Textos orixinais por autor con vocabulario e tradución, latinismos e helenismos organizados, o banco de preguntas de literatura, os exames oficiais por ano e unha ferramenta para xerar exames de práctica en segundos.</p>
+    <div class="hero-actions">
+      <a class="btn btn-latin" href="/latin/">Ir a Latín</a>
+      <a class="btn btn-greek" href="/grego/">Ir a Grego</a>
+      <a class="btn btn-outline" href="/creador/">Abrir o creador de exames</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+<div class="subject-grid">
+  <div class="glass-card subject-card latin">
+    <p class="kicker">Materia</p>
+    <h2>Latín</h2>
+    <ul>
+      <li><a href="/latin/textos/">{{ latinTexts.length }} textos de Eutropio e Fedro</a> — orixinal, tradución e ficha</li>
+      <li><a href="/latin/expresions/">{{ latinExpressions.length }} latinismos e locucións</a></li>
+      <li><a href="/latin/literatura/">Temas e preguntas de literatura latina</a></li>
+      <li><a href="/latin/exames/">Exames oficiais por ano</a></li>
+    </ul>
+    <a class="btn btn-latin btn-small" href="/latin/">Ver materia</a>
+  </div>
+  <div class="glass-card subject-card greek">
+    <p class="kicker">Materia</p>
+    <h2>Grego</h2>
+    <ul>
+      <li><a href="/grego/textos/">{{ greekTexts.length }} textos de Xenofonte e Apolodoro</a> — orixinal, notas e tradución</li>
+      <li><a href="/grego/helenismos/">{{ helenismos.length }} helenismos</a> por categoría gramatical</li>
+      <li><a href="/grego/literatura/">Obras e preguntas de literatura grega</a></li>
+      <li><a href="/grego/exames/">Exames oficiais por ano</a></li>
+    </ul>
+    <a class="btn btn-greek btn-small" href="/grego/">Ver materia</a>
+  </div>
+</div>
+
+<div class="feature-row">
+  <div class="glass-card feature">
+    <span class="icon-badge">{{ icon("book") }}</span>
+    <h3>Textos individualizados</h3>
+    <p>Cada texto ten a súa propia ficha: orixinal, notas de vocabulario e tradución completa ao galego, cun toggle para ocultala mentres practicas.</p>
+  </div>
+  <div class="glass-card feature">
+    <span class="icon-badge">{{ icon("doc") }}</span>
+    <h3>Banco de preguntas</h3>
+    <p>Preguntas típicas de literatura organizadas por xénero e autor, listas para incluír nun exame ou para repasar por libre.</p>
+  </div>
+  <div class="glass-card feature">
+    <span class="icon-badge">{{ icon("spark") }}</span>
+    <h3>Creador de exames</h3>
+    <p>Monta un exame completo seleccionando ou aleatorizando texto, latinismos/helenismos e preguntas, cunha presentación fiel aos exames oficiais da CIUG.</p>
+  </div>
+</div>
+</div>

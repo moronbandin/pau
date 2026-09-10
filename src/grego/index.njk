@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Grego
+subject: greek
+description: Visión xeral da materia de Grego para a PAU — textos, helenismos, literatura e exames.
+---
+{% from "icons.njk" import icon %}
+{% from "examStructure.njk" import render as renderExamStructure %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="eyebrow">Grego · PAU</p>
+    <h1>Grego</h1>
+    <p>Selección de textos de Xenofonte e Apolodoro, banco de helenismos, temas de literatura e o arquivo de exames oficiais.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    <div class="feature-row">
+      <a class="glass-card feature" href="/grego/textos/">
+        <span class="icon-badge">{{ icon("book") }}</span>
+        <h3>Textos por autor</h3>
+        <p>{{ greekTexts.length }} textos de Xenofonte (Anábase) e Apolodoro (Biblioteca/Epítome), con notas de vocabulario oficiais e tradución completa.</p>
+      </a>
+      <a class="glass-card feature" href="/grego/helenismos/">
+        <span class="icon-badge">{{ icon("tag") }}</span>
+        <h3>Helenismos</h3>
+        <p>{{ helenismos.length }} helenismos organizados por categoría gramatical, con exemplos en galego.</p>
+      </a>
+      <a class="glass-card feature" href="/grego/literatura/">
+        <span class="icon-badge">{{ icon("doc") }}</span>
+        <h3>Literatura</h3>
+        <p>Temas descargables e preguntas típicas: Ilíada, lírica arcaica, Edipo Rei, Asemblea de mulleres.</p>
+      </a>
+      <a class="glass-card feature" href="/grego/exames/">
+        <span class="icon-badge">{{ icon("archive") }}</span>
+        <h3>Exames por ano</h3>
+        <p>Arquivo de exames oficiais reais da PAU, organizados por convocatoria.</p>
+      </a>
+      <a class="glass-card feature" href="/creador/">
+        <span class="icon-badge">{{ icon("spark") }}</span>
+        <h3>Creador de exames</h3>
+        <p>Xera un exame de Grego completo seleccionando ou aleatorizando os seus contidos.</p>
+      </a>
+    </div>
+    {{ renderExamStructure(examStructure.greek, "/grego/") }}
+  </div>
+</div>

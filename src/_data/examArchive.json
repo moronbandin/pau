@@ -1,0 +1,484 @@
+{
+  "note": "Xerado automaticamente desde pau-arquivo-historico/data/indice.json — non editar á man, volver executar o script de integración.",
+  "latin": [
+    {
+      "ano": 2026,
+      "convocatoria": "extraordinaria",
+      "convocatoria_label": "Convocatoria extraordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/latin/2026_extraordinaria.pdf",
+      "nome_orixinal": "30_exame_latin_2026e.pdf"
+    },
+    {
+      "ano": 2026,
+      "convocatoria": "ordinaria",
+      "convocatoria_label": "Convocatoria ordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/latin/2026_ordinaria.pdf",
+      "nome_orixinal": "30_exame_latin_2026.pdf"
+    },
+    {
+      "ano": 2025,
+      "convocatoria": "extraordinaria",
+      "convocatoria_label": "Convocatoria extraordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/latin/2025_extraordinaria.pdf",
+      "nome_orixinal": "30examelatine.pdf"
+    },
+    {
+      "ano": 2025,
+      "convocatoria": "ordinaria",
+      "convocatoria_label": "Convocatoria ordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/latin/2025_ordinaria.pdf",
+      "nome_orixinal": "30examelatin.pdf"
+    },
+    {
+      "ano": 2024,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2024_combinada.pdf",
+      "nome_orixinal": "30_exame_latin_2024.pdf"
+    },
+    {
+      "ano": 2023,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2023_combinada.pdf",
+      "nome_orixinal": "30_exame_latin_2023.pdf"
+    },
+    {
+      "ano": 2022,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2022_combinada.pdf",
+      "nome_orixinal": "30_exame_latin_2022.pdf"
+    },
+    {
+      "ano": 2021,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2021_combinada.pdf",
+      "nome_orixinal": "30_exame_latin_2021.pdf"
+    },
+    {
+      "ano": 2020,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2020_combinada.pdf",
+      "nome_orixinal": "30_exame_latin_2020.pdf"
+    },
+    {
+      "ano": 2019,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2019_combinada.pdf",
+      "nome_orixinal": "ABAU_2019_latin.pdf"
+    },
+    {
+      "ano": 2018,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2018_combinada.pdf",
+      "nome_orixinal": "ABAU_2018_Latin.pdf"
+    },
+    {
+      "ano": 2017,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/latin/2017_combinada.pdf",
+      "nome_orixinal": "ABAU_2017_Latin.pdf"
+    },
+    {
+      "ano": 2016,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2016_combinada.pdf",
+      "nome_orixinal": "PAU_2016_Latin.pdf"
+    },
+    {
+      "ano": 2015,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2015_combinada.pdf",
+      "nome_orixinal": "PAU_2015_Latin.pdf"
+    },
+    {
+      "ano": 2014,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2014_combinada.pdf",
+      "nome_orixinal": "PAU_2014_Latin.pdf"
+    },
+    {
+      "ano": 2013,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2013_combinada.pdf",
+      "nome_orixinal": "PAU_2013_Latin.pdf"
+    },
+    {
+      "ano": 2012,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2012_combinada.pdf",
+      "nome_orixinal": "PAU_2012_Latin.pdf"
+    },
+    {
+      "ano": 2011,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2011_combinada.pdf",
+      "nome_orixinal": "PAU 2011 Latin.pdf"
+    },
+    {
+      "ano": 2010,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/latin/2010_combinada.pdf",
+      "nome_orixinal": "PAU 2010 Latin.pdf"
+    },
+    {
+      "ano": 2009,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2009_combinada.pdf",
+      "nome_orixinal": "paau2009 Latin.pdf"
+    },
+    {
+      "ano": 2008,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2008_combinada.pdf",
+      "nome_orixinal": "paau2008 Latin.pdf"
+    },
+    {
+      "ano": 2007,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2007_combinada.pdf",
+      "nome_orixinal": "paau2007 Latin.pdf"
+    },
+    {
+      "ano": 2006,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2006_combinada.pdf",
+      "nome_orixinal": "paau2006 Latin.pdf"
+    },
+    {
+      "ano": 2005,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2005_combinada.pdf",
+      "nome_orixinal": "paau2005 Latin.pdf"
+    },
+    {
+      "ano": 2004,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2004_combinada.pdf",
+      "nome_orixinal": "paau2004 Latin.pdf"
+    },
+    {
+      "ano": 2003,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2003_combinada.pdf",
+      "nome_orixinal": "paau2003 Latin.pdf"
+    },
+    {
+      "ano": 2002,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2002_combinada.pdf",
+      "nome_orixinal": "paau2002 Latin.pdf"
+    },
+    {
+      "ano": 2001,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/latin/2001_combinada.pdf",
+      "nome_orixinal": "paau2001 Latin.pdf"
+    }
+  ],
+  "greek": [
+    {
+      "ano": 2026,
+      "convocatoria": "extraordinaria",
+      "convocatoria_label": "Convocatoria extraordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/grego/2026_extraordinaria.pdf",
+      "nome_orixinal": "32_exame_grego_2026e.pdf"
+    },
+    {
+      "ano": 2026,
+      "convocatoria": "ordinaria",
+      "convocatoria_label": "Convocatoria ordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/grego/2026_ordinaria.pdf",
+      "nome_orixinal": "32_exame_grego_2026.pdf"
+    },
+    {
+      "ano": 2025,
+      "convocatoria": "extraordinaria",
+      "convocatoria_label": "Convocatoria extraordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/grego/2025_extraordinaria.pdf",
+      "nome_orixinal": "32examegrego2025e.pdf"
+    },
+    {
+      "ano": 2025,
+      "convocatoria": "ordinaria",
+      "convocatoria_label": "Convocatoria ordinaria",
+      "sistema": "PAU",
+      "lei": "LOMLOE",
+      "file": "/exames/grego/2025_ordinaria.pdf",
+      "nome_orixinal": "32gregoexame2025.pdf"
+    },
+    {
+      "ano": 2024,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2024_combinada.pdf",
+      "nome_orixinal": "32_exame_grego_2024.pdf"
+    },
+    {
+      "ano": 2023,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2023_combinada.pdf",
+      "nome_orixinal": "32_exame_grego_2023.pdf"
+    },
+    {
+      "ano": 2022,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2022_combinada.pdf",
+      "nome_orixinal": "32_exame_grego_2022.pdf"
+    },
+    {
+      "ano": 2021,
+      "convocatoria": "extraordinaria",
+      "convocatoria_label": "Convocatoria extraordinaria",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2021_extraordinaria.pdf",
+      "nome_orixinal": "32_exame_grego_2021.pdf"
+    },
+    {
+      "ano": 2020,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2020_combinada.pdf",
+      "nome_orixinal": "32_exame_grego_2020.pdf"
+    },
+    {
+      "ano": 2019,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2019_combinada.pdf",
+      "nome_orixinal": "ABAU_2019_grego.pdf"
+    },
+    {
+      "ano": 2018,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2018_combinada.pdf",
+      "nome_orixinal": "ABAU_2018_Grego.pdf"
+    },
+    {
+      "ano": 2017,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "ABAU",
+      "lei": "LOMCE",
+      "file": "/exames/grego/2017_combinada.pdf",
+      "nome_orixinal": "ABAU_2017_Grego.pdf"
+    },
+    {
+      "ano": 2016,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2016_combinada.pdf",
+      "nome_orixinal": "PAU_2016_Grego.pdf"
+    },
+    {
+      "ano": 2015,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2015_combinada.pdf",
+      "nome_orixinal": "PAU_2015_Grego.pdf"
+    },
+    {
+      "ano": 2014,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2014_combinada.pdf",
+      "nome_orixinal": "PAU_2014_Grego.pdf"
+    },
+    {
+      "ano": 2013,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2013_combinada.pdf",
+      "nome_orixinal": "PAU_2013_Grego.pdf"
+    },
+    {
+      "ano": 2012,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2012_combinada.pdf",
+      "nome_orixinal": "PAU_2012_Grego.pdf"
+    },
+    {
+      "ano": 2011,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2011_combinada.pdf",
+      "nome_orixinal": "PAU 2011 Grego.pdf"
+    },
+    {
+      "ano": 2010,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOE",
+      "file": "/exames/grego/2010_combinada.pdf",
+      "nome_orixinal": "PAU 2010 Grego.pdf"
+    },
+    {
+      "ano": 2009,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2009_combinada.pdf",
+      "nome_orixinal": "paau2009 Grego.pdf"
+    },
+    {
+      "ano": 2008,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2008_combinada.pdf",
+      "nome_orixinal": "paau2008 Grego.pdf"
+    },
+    {
+      "ano": 2007,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2007_combinada.pdf",
+      "nome_orixinal": "paau2007 Grego.pdf"
+    },
+    {
+      "ano": 2006,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2006_combinada.pdf",
+      "nome_orixinal": "paau2006 Grego.pdf"
+    },
+    {
+      "ano": 2005,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2005_combinada.pdf",
+      "nome_orixinal": "paau2005 Grego.pdf"
+    },
+    {
+      "ano": 2004,
+      "convocatoria": "combinada",
+      "convocatoria_label": "Ordinaria + extraordinaria (nun só PDF)",
+      "sistema": "PAU",
+      "lei": "LOGSE",
+      "file": "/exames/grego/2004_combinada.pdf",
+      "nome_orixinal": "paau2004 Grego.pdf"
+    }
+  ]
+}

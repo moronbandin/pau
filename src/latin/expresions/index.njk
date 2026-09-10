@@ -1,0 +1,85 @@
+---
+layout: base.njk
+title: Latinismos e prefixos
+subject: latin
+description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de orixe latina para a PAU.
+---
+{% from "icons.njk" import icon %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/latin/">Latín</a> / Latinismos e prefixos</p>
+    <p class="eyebrow">Latín</p>
+    <h1>Latinismos e prefixos</h1>
+    <p>{{ latinismosDetail.length }} latinismos e locucións de uso corrente en galego, con significado, exemplos e artigos de prensa reais, máis unha listaxe de exemplos de palabras formadas con prefixos e sufixos de orixe latina.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    <div class="glass-card" style="padding:30px 32px 34px;margin-bottom:24px">
+      <h2 style="margin:0 0 16px;font-size:1.15rem">Latinismos e locucións <span style="color:var(--ink-faint);font-weight:400">({{ latinismosDetail.length }})</span></h2>
+      <div class="filter-bar">
+        <div class="search-wrap">
+          {{ icon("search") }}
+          <input type="search" id="exprSearch" placeholder="Buscar un latinismo…" aria-label="Buscar latinismo">
+        </div>
+        <span class="result-count" id="exprCount"></span>
+      </div>
+      <p style="color:var(--ink-soft);margin:0 0 6px;font-size:.88rem">Toca ou preme sobre un latinismo para ver o seu significado, exemplos de uso e, cando exista, un artigo de prensa real que o emprega.</p>
+      {% set pressCount = 0 %}
+      {% for d in latinismosDetail %}{% if d.pressLinks and d.pressLinks.length %}{% set pressCount = pressCount + 1 %}{% endif %}{% endfor %}
+      <p style="color:var(--ink-faint);margin:0 0 16px;font-size:.8rem">{{ pressCount }} de {{ latinismosDetail.length }} latinismos teñen xa un artigo de prensa real verificado. Para os restantes aínda non se atopou ningún — nunca se inventa unha ligazón; a busca continúa.</p>
+      <div class="expr-grid" id="exprGrid">
+        {% for d in latinismosDetail %}
+        <details class="expr-item" data-term="{{ d.term | lower }}">
+          <summary class="expr-term">{{ d.term }}</summary>
+          <div class="expr-detail">
+            <p class="expr-meaning">{{ d.meaning }}</p>
+            {% if d.examples and d.examples.length %}
+            <p class="expr-detail-label">Exemplos de uso</p>
+            <ul class="expr-examples">
+              {% for ex in d.examples %}<li>{{ ex }}</li>{% endfor %}
+            </ul>
+            {% endif %}
+            <p class="expr-detail-label">Na prensa</p>
+            {% if d.pressLinks and d.pressLinks.length %}
+            <ul class="expr-press">
+              {% for p in d.pressLinks %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a> <span class="expr-press-source">— {{ p.source }}{% if p.date %}, {{ p.date }}{% endif %}</span></li>{% endfor %}
+            </ul>
+            {% else %}
+            <p class="expr-press-pending">Aínda non se atopou un artigo de prensa real verificado que use esta expresión.</p>
+            {% endif %}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="glass-card" style="padding:30px 32px 34px">
+      <h2 style="margin:0 0 6px;font-size:1.15rem">Exemplos de prefixos e sufixos latinos</h2>
+      <p style="color:var(--ink-soft);margin:0 0 18px;font-size:.92rem">Palabras galegas formadas con prefixos/sufixos de orixe latina, útiles para practicar a análise etimolóxica.</p>
+      <div class="expr-grid">
+        {% for w in latinPrefixExamples %}<div class="expr-item">{{ w }}</div>{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var input = document.getElementById('exprSearch');
+  var items = Array.prototype.slice.call(document.querySelectorAll('#exprGrid .expr-item'));
+  var count = document.getElementById('exprCount');
+  function update(){
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    items.forEach(function(it){
+      var match = !q || it.getAttribute('data-term').indexOf(q) !== -1;
+      it.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    count.textContent = shown + ' / ' + items.length;
+  }
+  input.addEventListener('input', update);
+  update();
+})();
+</script>

@@ -1,0 +1,44 @@
+---
+layout: base.njk
+title: Exames de Latín por ano
+subject: latin
+description: Arquivo de exames oficiais da PAU de Latín, organizados por convocatoria.
+---
+{% from "icons.njk" import icon %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/latin/">Latín</a> / Exames por ano</p>
+    <p class="eyebrow">Latín</p>
+    <h1>Exames por ano</h1>
+    <p>Arquivo de exames oficiais reais da PAU de Latín, organizados por convocatoria.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    {% if examArchive.latin.length %}
+    <p class="exam-archive-note">Exames oficiais reais da CIUG, verificados un a un (cabeceira de PDF válida e texto comprobado). Cando "Ord" e "Extr." aparecen xuntos nun único chip é porque as dúas convocatorias veñen no mesmo PDF orixinal.</p>
+    <div class="exam-year-list">
+      {% for year in examArchive.latin | groupByYear %}
+      <div class="exam-year-row">
+        <span class="exam-year-num">{{ year.ano }}</span>
+        <span class="exam-tag">{{ year.lei }} · {{ year.sistema }}</span>
+        <div class="exam-pill-row">
+          {% for ex in year.items %}
+          <a class="exam-pill" href="{{ ex.file }}" target="_blank" rel="noopener">
+            {% if ex.convocatoria == "combinada" %}Ord + Extr.{% elif ex.convocatoria == "extraordinaria" %}Extr.{% else %}Ord{% endif %}
+            {{ icon("external") }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="glass-card exam-empty">
+      <p><strong>Aínda non hai exames oficiais cargados aquí.</strong></p>
+      <p>Esta sección está lista para recibir os PDF reais de exames doutros anos. En canto os fornezas, engádense a <code>src/_data/examArchive.json</code> e colócanse en <code>public/exames/latin/</code> — e aparecerán automaticamente listados aquí por convocatoria.</p>
+      <p>Mentres tanto, podes xerar exames de práctica co <a href="/creador/">creador de exames</a>.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>

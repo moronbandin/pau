@@ -1,0 +1,74 @@
+{% from "icons.njk" import icon %}
+<!doctype html>
+<html lang="gl" data-subject="{{ subject or 'default' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title or "PAU Clásicas" }} · PAU Clásicas</title>
+<meta name="description" content="{{ description or 'Recursos e xerador de exames para a PAU de Latín e Grego: textos por autor, léxico, literatura e exames.' }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231d1d1f'/%3E%3Cpath d='M12 28V12h4.5a5 5 0 0 1 0 10H14' stroke='white' stroke-width='2.1' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M23 28V12l5 16 5-16v16' stroke='white' stroke-width='2.1' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar ao contido</a>
+<div class="bg-wash" aria-hidden="true"></div>
+
+<div class="app-shell">
+  <button class="mobile-topbar-toggle" id="navToggle" aria-expanded="false" aria-controls="sidebar" aria-label="Abrir menú">
+    {{ icon("menu") }}
+  </button>
+  <a class="mobile-brand" href="/">PAU Clásicas</a>
+
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <a class="brand" href="/">
+        <span class="brand-mark">PC</span>
+        <span class="brand-text">PAU Clásicas</span>
+      </a>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Pechar menú">{{ icon("close") }}</button>
+    </div>
+
+    <nav class="side-nav">
+      <a class="side-link {% if page.url == '/' %}is-active{% endif %}" href="/">
+        {{ icon("home") }}<span>Inicio</span>
+      </a>
+      <a class="side-link {% if page.url | startsWith('/instrucions') %}is-active{% endif %}" href="/instrucions/">
+        {{ icon("clock") }}<span>Instrucións e ponderacións</span>
+      </a>
+
+      <p class="side-label">Latín</p>
+      <a class="side-link {% if page.url == '/latin/' %}is-active{% endif %}" href="/latin/">{{ icon("chevron", "sub") }}<span>Visión xeral</span></a>
+      <a class="side-link {% if page.url | startsWith('/latin/textos') %}is-active{% endif %}" href="/latin/textos/">{{ icon("book", "sub") }}<span>Textos</span></a>
+      <a class="side-link {% if page.url | startsWith('/latin/expresions') %}is-active{% endif %}" href="/latin/expresions/">{{ icon("tag", "sub") }}<span>Latinismos e prefixos</span></a>
+      <a class="side-link {% if page.url | startsWith('/latin/literatura') %}is-active{% endif %}" href="/latin/literatura/">{{ icon("doc", "sub") }}<span>Literatura</span></a>
+      <a class="side-link {% if page.url | startsWith('/latin/exames') %}is-active{% endif %}" href="/latin/exames/">{{ icon("archive", "sub") }}<span>Exames por ano</span></a>
+
+      <p class="side-label">Grego</p>
+      <a class="side-link {% if page.url == '/grego/' %}is-active{% endif %}" href="/grego/">{{ icon("chevron", "sub") }}<span>Visión xeral</span></a>
+      <a class="side-link {% if page.url | startsWith('/grego/textos') %}is-active{% endif %}" href="/grego/textos/">{{ icon("book", "sub") }}<span>Textos</span></a>
+      <a class="side-link {% if page.url | startsWith('/grego/helenismos') %}is-active{% endif %}" href="/grego/helenismos/">{{ icon("tag", "sub") }}<span>Helenismos</span></a>
+      <a class="side-link {% if page.url | startsWith('/grego/literatura') %}is-active{% endif %}" href="/grego/literatura/">{{ icon("doc", "sub") }}<span>Literatura</span></a>
+      <a class="side-link {% if page.url | startsWith('/grego/exames') %}is-active{% endif %}" href="/grego/exames/">{{ icon("archive", "sub") }}<span>Exames por ano</span></a>
+    </nav>
+
+    <a class="side-cta {% if page.url | startsWith('/creador') %}is-active{% endif %}" href="/creador/">
+      {{ icon("spark") }}<span>Creador de exames</span>
+    </a>
+  </aside>
+
+  <div class="content-area">
+    <main id="main">
+    {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <p>Material de apoio para a PAU de Latín e Grego (Galicia). Contido normalizado a partir dos materiais oficiais da CIUG; as traducións, notas de vocabulario orientativas e o banco de preguntas de literatura son elaboración propia de apoio ao estudo, non exames oficiais.</p>
+    </footer>
+  </div>
+</div>
+
+<script src="/js/nav.js"></script>
+</body>
+</html>

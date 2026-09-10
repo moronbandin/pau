@@ -1,0 +1,14 @@
+{
+  "name": "pau-latin-grego",
+  "version": "1.0.0",
+  "description": "Sitio de recursos e xerador de exames para a PAU de Latín e Grego",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

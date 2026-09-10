@@ -1,0 +1,86 @@
+---
+layout: base.njk
+title: Helenismos
+subject: greek
+description: Helenismos organizados por categoría gramatical, con base, significado e exemplos, para a PAU de Grego.
+---
+{% from "icons.njk" import icon %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/grego/">Grego</a> / Helenismos</p>
+    <p class="eyebrow">Grego</p>
+    <h1>Helenismos</h1>
+    <p>{{ helenismos.length }} helenismos organizados por categoría gramatical (adxectivos, substantivos, verbos, indeclinables), coa súa base léxica, o significado e exemplos en galego.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    <div class="glass-card" style="padding:28px 32px 8px;margin-bottom:24px">
+    <div class="filter-bar">
+      <div class="search-wrap">
+        {{ icon("search") }}
+        <input type="search" id="helSearch" placeholder="Buscar por termo grego, base ou significado…" aria-label="Buscar helenismo">
+      </div>
+      <select id="helCat">
+        <option value="">Todas as categorías</option>
+        {% for cat, items in helenismos | groupByCat %}
+        <option value="{{ cat }}">{{ cat }} ({{ items.length }})</option>
+        {% endfor %}
+      </select>
+      <span class="result-count" id="helCount"></span>
+    </div>
+
+    {% for cat, items in helenismos | groupByCat %}
+    <div class="hel-cat" data-cat-block="{{ cat }}">
+      <h2>{{ cat }}</h2>
+      {% for h in items %}
+      <div class="hel-item" data-search="{{ (h.term + ' ' + h.base + ' ' + h.meaning + ' ' + h.examples) | lower }}">
+        <div>
+          <div class="hel-term">{{ h.term }}</div>
+          <div class="hel-base">{{ h.base }}</div>
+        </div>
+        <div>
+          <div class="hel-meaning">{{ h.meaning }}</div>
+          <div class="hel-examples">{{ h.examples }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var input = document.getElementById('helSearch');
+  var catSel = document.getElementById('helCat');
+  var count = document.getElementById('helCount');
+  var blocks = Array.prototype.slice.call(document.querySelectorAll('.hel-cat'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('.hel-item'));
+
+  function update(){
+    var q = input.value.trim().toLowerCase();
+    var cat = catSel.value;
+    var shown = 0;
+    blocks.forEach(function(b){
+      var blockCat = b.getAttribute('data-cat-block');
+      var blockItems = b.querySelectorAll('.hel-item');
+      var blockShown = 0;
+      blockItems.forEach(function(it){
+        var matchQ = !q || it.getAttribute('data-search').indexOf(q) !== -1;
+        var matchCat = !cat || cat === blockCat;
+        var show = matchQ && matchCat;
+        it.style.display = show ? '' : 'none';
+        if (show) blockShown++;
+      });
+      b.style.display = blockShown ? '' : 'none';
+      shown += blockShown;
+    });
+    count.textContent = shown + ' / ' + items.length;
+  }
+  input.addEventListener('input', update);
+  catSel.addEventListener('change', update);
+  update();
+})();
+</script>

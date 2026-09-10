@@ -1,0 +1,24 @@
+{% macro render(struct, subjectPath) %}
+<div class="glass-card exam-structure-card">
+  <div class="exam-structure-head">
+    <h2>{{ struct.title }}</h2>
+    <span class="exam-structure-total">10 puntos</span>
+  </div>
+  <p class="exam-structure-intro">{{ struct.intro }}</p>
+  <div class="exam-structure-sections">
+    {% for s in struct.sections %}
+    <div class="exam-structure-section">
+      <div class="exam-structure-section-head">
+        <h3>{{ s.title }}</h3>
+        <span class="exam-structure-pts">{{ s.points }} {% if s.points == 1 %}punto{% else %}puntos{% endif %}</span>
+      </div>
+      <ul>
+        {% for b in s.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="exam-structure-footnote">{{ struct.totalNote }}</p>
+  <p class="exam-structure-footnote">Temas de literatura vixentes este curso: <a href="{{ subjectPath }}literatura/">consúltaos marcados como "Vixente este curso" na sección de Literatura →</a></p>
+</div>
+{% endmacro %}

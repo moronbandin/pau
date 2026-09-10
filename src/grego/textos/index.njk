@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Textos de Grego por autor
+subject: greek
+description: Textos de Xenofonte e Apolodoro para a PAU de Grego, con ficha individual, vocabulario e tradución.
+---
+{% from "icons.njk" import icon %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/grego/">Grego</a> / Textos</p>
+    <p class="eyebrow">Grego</p>
+    <h1>Textos por autor</h1>
+    <p>{{ greekTexts.length }} textos seleccionados para a PAU. Escolle un autor e despois un texto para ver o orixinal, as notas de vocabulario e a tradución completa.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    {% set groups = greekTexts | groupByAuthor %}
+    {% for g in groups %}
+    <div class="author-block">
+      <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
+      <div class="text-grid">
+        {% for t in g.texts %}
+        <a class="text-card" href="/grego/textos/{{ t.slug }}/">
+          <span class="ref">{{ t.ref }}</span>
+          <span class="text-card-body">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.text | firstWords(10) }}</p>
+          </span>
+          {{ icon("chevron", "chevron-end") }}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,947 @@
+[
+ {
+  "cat": "Adxectivos",
+  "term": "ἀρχαῖος, -α, -ον",
+  "base": "arc-, arqu-",
+  "meaning": "antigo",
+  "examples": "arcaico, arqueoloxía"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "αὐτός, -ή, -ό",
+  "base": "auto-",
+  "meaning": "un mesmo, si mesmo",
+  "examples": "autoestima, autoadhesivo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "βαρύς, -εῖα, -ύ",
+  "base": "bari-",
+  "meaning": "pesado, grave",
+  "examples": "barítono, barómetro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "δέκα",
+  "base": "deca-",
+  "meaning": "dez",
+  "examples": "decámetro, decalitro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "δώδεκα",
+  "base": "dodeca-",
+  "meaning": "doce",
+  "examples": "dodecaedro, dodecágono"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἑκατόν",
+  "base": "hecato-, hecto-",
+  "meaning": "cen",
+  "examples": "hecatombe, hectolitro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἐννέα",
+  "base": "enea-",
+  "meaning": "nove",
+  "examples": "eneágono, eneasílabo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἕξ",
+  "base": "hex-",
+  "meaning": "seis",
+  "examples": "hexágono, hexaedro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἑπτά",
+  "base": "hept-",
+  "meaning": "sete",
+  "examples": "heptágono, heptasílabo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἕτερος, -α, -ον",
+  "base": "hetero-",
+  "meaning": "distinto",
+  "examples": "heterosexual, heterónimo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "θερμός, -ή, -όν",
+  "base": "termo-",
+  "meaning": "quente",
+  "examples": "Termópilas, termómetro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ἴσος, -η, -ον",
+  "base": "iso-",
+  "meaning": "igual",
+  "examples": "isóscele, isotermo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "κακός, -ή, -όν",
+  "base": "caco-",
+  "meaning": "malo",
+  "examples": "cacofonía, cacografía"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "καλός, -ή, -όν",
+  "base": "calo-, cali-",
+  "meaning": "fermoso",
+  "examples": "caligrafía, calocéfalo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "λευκός, -ή, -όν",
+  "base": "leuco-",
+  "meaning": "branco",
+  "examples": "leucocito, leucemia"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "μέγας, μεγάλη, μέγα",
+  "base": "mega-, megalo-",
+  "meaning": "grande",
+  "examples": "megafonía, megalópolis"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "μακρός, -ά, -όν",
+  "base": "macro-",
+  "meaning": "grande",
+  "examples": "macrocéfalo, macrocosmos"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "μέσος, -η, -ον",
+  "base": "meso-",
+  "meaning": "medio, en medio",
+  "examples": "Mesopotamia, mesoderme"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "μικρός, -α, -όν",
+  "base": "micro-",
+  "meaning": "pequeno",
+  "examples": "microcéfalo, microcosmos"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "μόνος, -η, -ον",
+  "base": "mono-",
+  "meaning": "un, único",
+  "examples": "monolito, monarquía"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "νέος, -α, -ον",
+  "base": "neo-",
+  "meaning": "novo",
+  "examples": "neolítico, neoloxismo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ὀκτώ",
+  "base": "octo-, octa-",
+  "meaning": "oito",
+  "examples": "octópodo, octaedro"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ὀλίγος, -η, -ον",
+  "base": "oligo-",
+  "meaning": "pouco",
+  "examples": "oligarquía, oligofrenia"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ὅμοιος, -α, -ον",
+  "base": "homeo-, homo-",
+  "meaning": "igual",
+  "examples": "homofobia, homónimo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ὀρθός, -ή, -όν",
+  "base": "orto-",
+  "meaning": "recto, correcto",
+  "examples": "ortografía, ortodoncia"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "παλαιός, -ά, -όν",
+  "base": "paleo-",
+  "meaning": "antigo",
+  "examples": "paleolítico, paleocristián"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "πᾶς, πᾶσα, πᾶν",
+  "base": "pan-, panto-",
+  "meaning": "todo",
+  "examples": "pandemia, panteón"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "πέντε",
+  "base": "penta-",
+  "meaning": "cinco",
+  "examples": "pentadactílico, pentasílabo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "πολύς, πολλή, πολύ",
+  "base": "poli-",
+  "meaning": "moito",
+  "examples": "poligamia, polícromo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "πρῶτος, -η, -ον",
+  "base": "proto-",
+  "meaning": "primeiro",
+  "examples": "protomártir, prototipo"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "ταχύς, -εῖα, -ύ",
+  "base": "taqui-",
+  "meaning": "rápido",
+  "examples": "taquicardia, taquigrafía"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "τέτταρες",
+  "base": "tetra-",
+  "meaning": "catro",
+  "examples": "tetraedro, tetraloxía"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "τρείς",
+  "base": "tri-",
+  "meaning": "tres",
+  "examples": "triloxía, trípode"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "φίλος, -η, -ον",
+  "base": "filo-, -filia",
+  "meaning": "amigo, afeccionado",
+  "examples": "zoófilo, hemofilia"
+ },
+ {
+  "cat": "Adxectivos",
+  "term": "χλωρός, -ά, -όν",
+  "base": "cloro-",
+  "meaning": "verde",
+  "examples": "cloro, clorofila"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἀήρ, ἀέρος",
+  "base": "aero-",
+  "meaning": "aire",
+  "examples": "aerofaxia, aerolito"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "αἷμα, αἵματος",
+  "base": "hemo-, hemat-",
+  "meaning": "sangue",
+  "examples": "hemoglobina, hematoloxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἄλγος, -ους",
+  "base": "algo-, -alxia",
+  "meaning": "dolor",
+  "examples": "neuralxia, algofobia, nostalxia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἀνήρ, ἀνδρός",
+  "base": "andro-, -andria",
+  "meaning": "home",
+  "examples": "androloxía, poliandria"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἄνθρωπος, -ου",
+  "base": "antropo-",
+  "meaning": "ser humano",
+  "examples": "antropoloxía, antropófago"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἀρχή, -ῆς",
+  "base": "arqui-, arque-, archi-",
+  "meaning": "poder, principio (indica superioridade)",
+  "examples": "arquitecto, arquetipo, archiduque"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἀστήρ, -έρος",
+  "base": "aster-",
+  "meaning": "astro, estrela",
+  "examples": "asteroide, asterisco"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "βιβλίον, -ου",
+  "base": "biblio-",
+  "meaning": "libro",
+  "examples": "biblioteca, bibliófilo, bibliografía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "βίος, -ου",
+  "base": "bio-",
+  "meaning": "vida",
+  "examples": "bioloxía, microbio"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γάμος, -ου",
+  "base": "-gamia",
+  "meaning": "matrimonio",
+  "examples": "endogamia, poligamia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γαστήρ, -τρός",
+  "base": "gastr-",
+  "meaning": "estómago",
+  "examples": "gastronomía, gastralxia, gastroscopia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γένος, -ους",
+  "base": "xen-, -xenia",
+  "meaning": "orixe",
+  "examples": "xenealogía, oroxenia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γέρων, -οντος",
+  "base": "xeron-, xeront-",
+  "meaning": "ancián",
+  "examples": "xeropsiquiatría, xerontocracia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γῆ, -ῆς",
+  "base": "xeo-",
+  "meaning": "terra",
+  "examples": "xeografía, xeología, xeometría"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γνῶσις, -εως",
+  "base": "gno-",
+  "meaning": "coñecemento",
+  "examples": "agnóstico, gnoseología"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γράμμα, -ατος",
+  "base": "grama-, gramat-",
+  "meaning": "escrito, letra, debuxo",
+  "examples": "cardiograma, gramática, pentagrama"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "γυνή, γυναικός",
+  "base": "xine-, xineco-",
+  "meaning": "muller",
+  "examples": "xinecocracia, xinefobia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "δέρμα, -ατος",
+  "base": "derma-, dermat-",
+  "meaning": "pel",
+  "examples": "dermatoloxía, dermoprotector, paquidermo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "δῆμος, -ου",
+  "base": "demo-",
+  "meaning": "pobo",
+  "examples": "democracia, demografía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "δρόμος, -ου",
+  "base": "dromo-",
+  "meaning": "carreira, pista",
+  "examples": "hipódromo, aeródromo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "δύναμις, -εως",
+  "base": "dinam-",
+  "meaning": "forza",
+  "examples": "termodinámica, dinamómetro"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἕδρα, -ας",
+  "base": "-edro",
+  "meaning": "base, asento",
+  "examples": "dodecaedro, hexaedro"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "εἶδος, -ους",
+  "base": "-oide",
+  "meaning": "visión, aspecto, forma",
+  "examples": "antropoide, asteroide"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "εἰκών, -όνος",
+  "base": "icon-",
+  "meaning": "imaxe",
+  "examples": "iconoclasta, iconografía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἔντερον, -ου",
+  "base": "enter-",
+  "meaning": "intestino, tripa",
+  "examples": "gastroenterite, disentería"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἔργον, -ου",
+  "base": "ergo-, -urxia",
+  "meaning": "traballo",
+  "examples": "ergofobia, metalurxia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἔρως, -ωτος",
+  "base": "ero-, erot-",
+  "meaning": "amor",
+  "examples": "eróxeno, erotomanía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ζῶον, -ου",
+  "base": "zoo-",
+  "meaning": "animal, ser vivo",
+  "examples": "zoofilia, zooloxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἥλιος, -ου",
+  "base": "helio-",
+  "meaning": "sol",
+  "examples": "heliocéntrico, heliotropismo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "θάνατος, -ου",
+  "base": "tanato-",
+  "meaning": "morte",
+  "examples": "tanatorio, tanatopraxia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "θεός, -οῦ",
+  "base": "teo-",
+  "meaning": "deus",
+  "examples": "teoloxía, teocracia, Teodoro, Doroteo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "θεραπεῖα, -ας",
+  "base": "terap-, -terapia",
+  "meaning": "coidado, tratamento",
+  "examples": "terapéutico, hidroterapia, fisioterapia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "θήκη, -ης",
+  "base": "-teca",
+  "meaning": "depósito",
+  "examples": "biblioteca, hemeroteca"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἰατρός, -οῦ",
+  "base": "iatro-, -iatria",
+  "meaning": "médico",
+  "examples": "iatrofobia, pediatría, psiquiatría"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ἵππος, -ου",
+  "base": "hipo-",
+  "meaning": "cabalo",
+  "examples": "hipopótamo, hipódromo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "καρδία, -ας",
+  "base": "cardi-",
+  "meaning": "corazón",
+  "examples": "cardialxia, cardiopatía, miocardio"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "κεφαλή, -ης",
+  "base": "cefal-",
+  "meaning": "cabeza",
+  "examples": "cefalalxia, encéfalo, cefalópodo, microcéfalo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "κόσμος, -ου",
+  "base": "cosmo-",
+  "meaning": "orde, mundo, adorno",
+  "examples": "cosmoloxía, cosmonauta, cosmopolita"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "κράτος, -ους",
+  "base": "-cracia",
+  "meaning": "forza, dominio, poder",
+  "examples": "democracia, aristocracia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "κύτος, -ους",
+  "base": "cito-",
+  "meaning": "celda, célula",
+  "examples": "citoloxía, leucocito"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "λίθος, -ου",
+  "base": "lito-",
+  "meaning": "pedra",
+  "examples": "monolito, litografía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "λόγος, -ου",
+  "base": "logo-, -logo, -loxía",
+  "meaning": "palabra, relato, tratado",
+  "examples": "logógrafo, filólogo, astroloxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "μαντεία, -ας",
+  "base": "-mancia",
+  "meaning": "adivinación",
+  "examples": "quiromancia, cartomancia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "μέτρον, -ου",
+  "base": "metro-, -metría",
+  "meaning": "medida",
+  "examples": "metroloxía, termómetro, xeometría"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "μορφή, -ῆς",
+  "base": "morfo-",
+  "meaning": "forma",
+  "examples": "morfoloxía, antropomorfo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "μῦθος, -ου",
+  "base": "mito-",
+  "meaning": "relato",
+  "examples": "mitoloxía, mitografía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ναῦς, νεώς",
+  "base": "nau-",
+  "meaning": "nave",
+  "examples": "náutico, naumaquia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "νόμος, -ου",
+  "base": "nomo-",
+  "meaning": "lei, regra",
+  "examples": "astronomía, autonomía, economía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὀδούς, -όντος",
+  "base": "odont-, -odonte, -oncia",
+  "meaning": "dente",
+  "examples": "odontoloxía, odontalxia, mastodonte, ortodoncia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "οἶκος, -ου",
+  "base": "eco-",
+  "meaning": "casa",
+  "examples": "economía, ecoloxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὄνομα, -ματος",
+  "base": "onoma-, onomat-",
+  "meaning": "nome",
+  "examples": "onomástica, onomatopea"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὄρος, -ους",
+  "base": "oro-",
+  "meaning": "montaña",
+  "examples": "orografía, oroxénese"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὀστέον, -ου",
+  "base": "osteo-, -ostio",
+  "meaning": "óso",
+  "examples": "osteopatía, osteoporose, periostio"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὀφθαλμός, -οῦ",
+  "base": "oftalmo-",
+  "meaning": "ollo",
+  "examples": "oftalmoloxía, oftalmoscopia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "πάθος, -ους",
+  "base": "pat-, -patía",
+  "meaning": "sufrimento, doenza, experiencia",
+  "examples": "patoloxía, patético, simpatía, telepatía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "παῖς, παιδός",
+  "base": "ped-",
+  "meaning": "neno",
+  "examples": "pediatría, pedagoxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "πνεῦμα",
+  "base": "pneuma-, neuma-",
+  "meaning": "sopro, aire",
+  "examples": "pneumático, pneumonía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "πόλις, -εως",
+  "base": "poli-, -pole",
+  "meaning": "cidade",
+  "examples": "metrópole, acrópole"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ποταμός, -οῦ",
+  "base": "potamo-",
+  "meaning": "río",
+  "examples": "potamoloxía, hipopótamo, Mesopotamia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ποῦς, ποδός",
+  "base": "pod-",
+  "meaning": "pé",
+  "examples": "podoloxía, podómetro, trípode"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "πῦρ, πυρός",
+  "base": "pir-",
+  "meaning": "lume",
+  "examples": "piroclasto, pirómano, piromancia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ῥίς, ῥινός",
+  "base": "rin-",
+  "meaning": "nariz",
+  "examples": "rinite, rinoplastia, rinoscopia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "σάρξ, -κός",
+  "base": "sarc-",
+  "meaning": "carne",
+  "examples": "sarcófago, sarcoma"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "σῆμα, -ατος",
+  "base": "sema-, -semia",
+  "meaning": "sinal, significado",
+  "examples": "semáforo, polisemia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "στόμα, -ατος",
+  "base": "estoma-, estomat-",
+  "meaning": "boca",
+  "examples": "estoma, estomatólogo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "σφαῖρα, -ας",
+  "base": "esfer-, -sfera",
+  "meaning": "esfera",
+  "examples": "esferómetro, litosfera, atmosfera"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "σῶμα, -ατος",
+  "base": "soma-, somat-",
+  "meaning": "corpo",
+  "examples": "somático, psicosomático, cromosoma"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τέχνη, -ης",
+  "base": "tecn-, -tecnia",
+  "meaning": "arte, habilidade",
+  "examples": "tecnoloxía, tecnocracia, mnemotecnia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τομή, -ῆς",
+  "base": "tomo-, -tomía",
+  "meaning": "corte",
+  "examples": "tomografía, anatomía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τόνος, -ου",
+  "base": "tono-",
+  "meaning": "ton, acento",
+  "examples": "tónico, oxítono"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τόπος, -ου",
+  "base": "topo-",
+  "meaning": "lugar",
+  "examples": "topoloxía, toponimia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τραῦμα, -ατος",
+  "base": "trauma-, traumat-",
+  "meaning": "ferida",
+  "examples": "trauma, traumatoloxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "τροφή, -ῆς",
+  "base": "trof-, -trofia",
+  "meaning": "alimento",
+  "examples": "trofoloxía, hipertrofia, atrofia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὕδωρ, ὕδατος",
+  "base": "hidro-",
+  "meaning": "auga",
+  "examples": "hidroloxía, hidrocefalia, hidrosfera"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ὕπνος, -ου",
+  "base": "hipno-",
+  "meaning": "sono",
+  "examples": "hipnose, hipnoterapia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "φόβος, -ου",
+  "base": "fobo-, -fobia",
+  "meaning": "medo, temor",
+  "examples": "fobia, hidrofobia, fotofobia"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "φύσις, -εως",
+  "base": "fisi-, -física",
+  "meaning": "natureza",
+  "examples": "fisioterapia, fisioloxía, física, metafísica"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "φωνή, -ῆς",
+  "base": "fon-, -fonía",
+  "meaning": "son",
+  "examples": "fonema, micrófono, megafonía, fonoteca"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "φῶς, φωτός",
+  "base": "fos-, foto-",
+  "meaning": "luz",
+  "examples": "fósforo, fotografía, fotómetro"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "χείρ, -ός",
+  "base": "quiro-, cir-",
+  "meaning": "man",
+  "examples": "quiromancia, quiromasaxe, cirurxía"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "χρόνος, -ου",
+  "base": "crono-",
+  "meaning": "tempo",
+  "examples": "cronoloxía, cronómetro"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "χρῶμα, -ατος",
+  "base": "crom-, cromat-",
+  "meaning": "cor",
+  "examples": "cromosoma, cromático"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ψεῦδος, -ους",
+  "base": "pseudo-, seudo-",
+  "meaning": "falsedade, mentira",
+  "examples": "pseudónimo, pseudópodo"
+ },
+ {
+  "cat": "Substantivos",
+  "term": "ψυχή, -ῆς",
+  "base": "psic-, psiqu-",
+  "meaning": "alma",
+  "examples": "psicoloxía, psiquiatría, psicofármaco, psicoterapeuta"
+ },
+ {
+  "cat": "Verbos",
+  "term": "γράφω",
+  "base": "graf-, -grafía",
+  "meaning": "escribir",
+  "examples": "grafoloxía, fotografía"
+ },
+ {
+  "cat": "Verbos",
+  "term": "διδάσκω",
+  "base": "didac-",
+  "meaning": "ensinar",
+  "examples": "didáctica, autodidacta"
+ },
+ {
+  "cat": "Verbos",
+  "term": "κρύπτω",
+  "base": "cripto-",
+  "meaning": "ocultar",
+  "examples": "criptografía, encriptar"
+ },
+ {
+  "cat": "Verbos",
+  "term": "ποιέω",
+  "base": "poe-, -pea",
+  "meaning": "crear",
+  "examples": "poética, onomatopea"
+ },
+ {
+  "cat": "Verbos",
+  "term": "σκοπέω",
+  "base": "-scopio, -scopia",
+  "meaning": "mirar, observar",
+  "examples": "periscopio, endoscopia"
+ },
+ {
+  "cat": "Verbos",
+  "term": "φάγομαι",
+  "base": "-fago, -faxia",
+  "meaning": "comer",
+  "examples": "antropófago, aerofaxia, disfaxia"
+ },
+ {
+  "cat": "Verbos",
+  "term": "φαίνω",
+  "base": "fan-",
+  "meaning": "mostrar",
+  "examples": "fantasma, diáfano"
+ },
+ {
+  "cat": "Verbos",
+  "term": "φέρω",
+  "base": "fer-, -foro",
+  "meaning": "portar, levar",
+  "examples": "feromonas, fósforo, cromatóforo"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "ἀντί",
+  "base": "anti-",
+  "meaning": "contra, oposto a",
+  "examples": "antípoda, antítese"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "δυσ-",
+  "base": "dis-",
+  "meaning": "difícil, malo",
+  "examples": "disfonía, dislexia"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "ἔνδον",
+  "base": "endo-",
+  "meaning": "dentro",
+  "examples": "endogamia, endocardio"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "ἔξω",
+  "base": "exo-",
+  "meaning": "fóra",
+  "examples": "exogamia, exocardio"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "εὖ",
+  "base": "eu-",
+  "meaning": "ben, bo, fácil",
+  "examples": "eufonía, euforia"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "ἡμι-",
+  "base": "hemi-",
+  "meaning": "metade",
+  "examples": "hemisferio, hemialxia"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "περί",
+  "base": "peri-",
+  "meaning": "arredor",
+  "examples": "perímetro, pericardio"
+ },
+ {
+  "cat": "Indeclinables",
+  "term": "τῆλε",
+  "base": "tele-",
+  "meaning": "lonxe",
+  "examples": "telescopio, teléfono"
+ }
+]

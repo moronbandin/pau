@@ -1,0 +1,95 @@
+{
+  "latin": {
+    "title": "Resumo PAU 2026 — Latín II",
+    "intro": "Para as PAU 2026 mantéñense os contidos, o modelo de exame e os criterios de valoración do ano anterior. A proba terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "sections": [
+      {
+        "title": "Comprensión e interpretación de textos",
+        "points": 5,
+        "bullets": [
+          "Texto de 3-4 liñas ou 6-7 versos.",
+          "Procederá da selección de Eutropio e Fedro publicada pola CIUG.",
+          "Permítese usar dicionario de latín co seu apéndice gramatical orixinal; non se permiten cadernos adicionais.",
+          "Pódese escoller entre traducir o texto ao galego ou castelán, ou responder en latín ás preguntas sobre o texto.",
+          "As respostas en latín deben ser frases completas, correctas e gramaticalmente ben construídas.",
+          "Deben adaptarse á forma e ao tempo verbal da pregunta, sen limitarse a copiar literalmente o texto.",
+          "Só se pode empregar información presente no texto, aínda que se admite vocabulario ou construcións diferentes se son adecuados.",
+          "Os 5 puntos repártense proporcionalmente entre todas as cuestións."
+        ]
+      },
+      {
+        "title": "Análise morfolóxica e sintáctica",
+        "points": 1,
+        "bullets": [
+          "Analizarase un pequeno fragmento do texto anterior.",
+          "Morfoloxía: identificar a clase de palabra e todas as categorías gramaticais correspondentes.",
+          "Sintaxe: explicar as estruturas e a función de cada elemento.",
+          "Só se debe analizar o valor concreto que cada palabra ou estrutura ten nese texto; engadir características que non correspondan pode penalizar."
+        ]
+      },
+      {
+        "title": "Latín e plurilingüismo",
+        "points": 2,
+        "bullets": [
+          "Hai dous apartados e escóllese un.",
+          "Prefixos latinos: identificar o prefixo dunha palabra e explicar claramente o significado que aporta.",
+          "Expresións latinas: explicar o significado dunha locución latina e empregala correctamente nun exemplo."
+        ]
+      },
+      {
+        "title": "Literatura latina",
+        "points": 2,
+        "bullets": [
+          "Haberá 2 opcións e escóllese 1.",
+          "Hai que responder de maneira exacta, clara e sintética sobre xéneros, autores e obras.",
+          "Materia: teatro (Plauto), oratoria e retórica (Cicerón), historiografía (Tito Livio), épica (Virxilio) e lírica (Horacio)."
+        ]
+      }
+    ],
+    "totalNote": "Repartición: texto/tradución ou comprensión 5 puntos + análise 1 punto + plurilingüismo 2 puntos + literatura 2 puntos = 10 puntos."
+  },
+  "greek": {
+    "title": "Resumo PAU 2026 — Grego II",
+    "intro": "Para as PAU 2026 mantéñense os contidos, o modelo de exame e os criterios de valoración do curso anterior. O exame terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "sections": [
+      {
+        "title": "Comprensión e interpretación de textos",
+        "points": 5,
+        "bullets": [
+          "Texto de 3-4 liñas, procedente dunha selección de Apolodoro e Xenofonte publicada pola CIUG.",
+          "Permítese utilizar dicionario de grego co seu apéndice gramatical orixinal, pero non materiais engadidos.",
+          "O alumnado poderá escoller entre traducir o texto ao galego ou castelán, ou responder en grego a 5 preguntas sobre o texto, de 1 punto cada unha.",
+          "As respostas en grego deben ser frases completas, adaptarse á forma da pregunta e basearse só na información do texto.",
+          "Non se penalizan erros de acentuación; os erros gramaticais só se penalizan se dificultan a comprensión ou afectan gravemente á concordancia."
+        ]
+      },
+      {
+        "title": "Análise morfolóxica e sintáctica",
+        "points": 1,
+        "bullets": [
+          "Analizarase unha parte do texto anterior.",
+          "Morfoloxía: identificación completa das formas (caso, número, xénero, persoa, tempo, modo, voz, etc.).",
+          "Sintaxe: tipo de oración e funcións sintácticas (suxeito, predicado, CD, CI, complementos circunstanciais, predicativos...)."
+        ]
+      },
+      {
+        "title": "Grego e plurilingüismo",
+        "points": 2,
+        "bullets": [
+          "Danse 6 palabras gregas coa súa tradución. Hai que escoller 4.",
+          "Para cada unha débense citar e explicar 2 palabras do vocabulario actual relacionadas etimoloxicamente.",
+          "Non chega con citar os exemplos: hai que explicar a relación."
+        ]
+      },
+      {
+        "title": "Literatura grega e lecturas",
+        "points": 2,
+        "bullets": [
+          "Haberá 2 preguntas e escollerase 1.",
+          "Lecturas obrigatorias: Homero, Ilíada (cantos 1, 6, 16 e 22); lírica arcaica (Arquíloco, Safo e Anacreonte); Sófocles, Edipo Rei; Aristófanes, Asemblea de mulleres."
+        ]
+      }
+    ],
+    "totalNote": "Repartición: texto/tradución ou comprensión 5 puntos + análise 1 punto + etimoloxía/vocabulario 2 puntos + literatura 2 puntos = 10 puntos."
+  }
+}

@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Textos de Latín por autor
+subject: latin
+description: Textos de Eutropio e Fedro para a PAU de Latín, con ficha individual, vocabulario e tradución.
+---
+{% from "icons.njk" import icon %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/latin/">Latín</a> / Textos</p>
+    <p class="eyebrow">Latín</p>
+    <h1>Textos por autor</h1>
+    <p>{{ latinTexts.length }} textos seleccionados para a PAU. Escolle un autor e despois un texto para ver o orixinal, a súa ficha e a tradución completa.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    {% set groups = latinTexts | groupByAuthor %}
+    {% for g in groups %}
+    <div class="author-block">
+      <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
+      <div class="text-grid">
+        {% for t in g.texts %}
+        <a class="text-card" href="/latin/textos/{{ t.slug }}/">
+          <span class="ref">{{ t.ref }}</span>
+          <span class="text-card-body">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.text | firstWords(14) }}</p>
+          </span>
+          {{ icon("chevron", "chevron-end") }}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

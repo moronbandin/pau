@@ -1,0 +1,48 @@
+---
+layout: base.njk
+title: Literatura latina
+subject: latin
+description: Preguntas reais de literatura latina na PAU, extraídas dos exames oficiais 2010–2026, con métrica de frecuencia.
+---
+<div class="section-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/latin/">Latín</a> / Literatura</p>
+    <p class="eyebrow">Latín</p>
+    <h1>Literatura</h1>
+    <p>Preguntas reais de literatura, extraídas unha a unha dos exames oficiais da CIUG ({{ litQuestions.meta.coverage }}). A porcentaxe indica en cantas convocatorias reais (sobre {{ litQuestions.meta.totalSittings }}) apareceu ese autor ou esa pregunta.</p>
+    <p class="lit-methodology">{{ litQuestions.meta.note }}</p>
+    <p class="lit-methodology">{{ litQuestions.meta.currentNote }}</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    <div class="lit-theme-list">
+      {% for genre in litQuestions.latin %}
+      <div class="glass-card lit-genre {% if not genre.current %}lit-genre-legacy{% endif %}">
+        <div class="lit-genre-head">
+          <h2>{{ genre.label }}</h2>
+          <div style="display:flex;align-items:center;gap:12px">
+            {% if genre.current %}<span class="lit-current-badge">Vixente este curso</span>{% else %}<span class="lit-legacy-badge">Non vixente este curso</span>{% endif %}
+            <div class="lit-typicality" title="Apareceu en {{ genre.sittingsCount }} de {{ litQuestions.meta.totalSittings }} convocatorias reais">
+              <div class="lit-typicality-bar"><span style="width:{{ genre.pct }}%"></span></div>
+              <span class="lit-typicality-pct">{{ genre.pct }}%</span>
+            </div>
+          </div>
+        </div>
+        <ol class="lit-question-list">
+          {% for q in genre.questions %}
+          <li>
+            <span class="lit-q-text">{{ q.text }}</span>
+            <span class="lit-q-freq">
+              {{ q.pct }}% · {{ q.sittingsCount }}/{{ litQuestions.meta.totalSittings }} anos:
+              {% for s in q.sittings %}<a class="lit-year-link" href="{{ s.file }}" target="_blank" rel="noopener" title="Abrir exame de {{ s.ano }} ({{ s.chip }})">{{ s.ano }}{% if s.convocatoria != "combinada" %}&nbsp;<span class="lit-year-conv">{{ s.chip }}</span>{% endif %}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+            </span>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="margin-top:24px"><a class="btn btn-latin btn-small" href="/creador/">Usar estas preguntas no creador de exames →</a></p>
+  </div>
+</div>

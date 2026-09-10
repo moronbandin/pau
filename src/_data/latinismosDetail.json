@@ -1,0 +1,1839 @@
+[
+ {
+  "term": "a posteriori",
+  "meaning": "A partir da experiencia, despois do feito, en sentido inverso á dedución lóxica previa.",
+  "examples": [
+   "Só a posteriori souberon que a decisión fora un erro.",
+   "Os efectos do medicamento avalíanse a posteriori, tras o ensaio clínico."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "a priori",
+  "meaning": "Antes da experiencia; nun principio, sen coñecer aínda os feitos.",
+  "examples": [
+   "A priori, o proxecto parecía sinxelo de executar.",
+   "Non se pode xulgar a alguén a priori, sen coñecelo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ab aeterno",
+  "meaning": "Desde sempre, desde a eternidade.",
+  "examples": [
+   "Din que esa tradición existe ab aeterno na aldea.",
+   "O conflito entre as dúas familias vén de ab aeterno."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ad hoc",
+  "meaning": "Feito ou pensado especificamente para un fin concreto.",
+  "examples": [
+   "Creouse unha comisión ad hoc para investigar o caso.",
+   "Deseñaron unha solución ad hoc para ese cliente."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ad Kalendas Graecas",
+  "meaning": "Nunca (literalmente, «para as calendas gregas», que non existían no calendario grego).",
+  "examples": [
+   "Prometeu pagar, pero será ad Kalendas Graecas.",
+   "Adiar isto ad Kalendas Graecas é non facelo nunca."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ad libitum",
+  "meaning": "Ao gusto, libremente, sen límite fixado.",
+  "examples": [
+   "No bufé pódese repetir ad libitum.",
+   "O músico podía improvisar ad libitum sobre o tema."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ad multos annos",
+  "meaning": "Por moitos anos (fórmula de bo desexo, moi usada en aniversarios ou celebracións).",
+  "examples": [
+   "Brindaron por el desexándolle ad multos annos.",
+   "Ad multos annos foi o que lle desexaron o día do seu xubileo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "addenda et corrigenda",
+  "meaning": "Cousas que hai que engadir e corrixir (nun texto ou documento).",
+  "examples": [
+   "Ao final do libro incluíuse un apartado de addenda et corrigenda.",
+   "Antes de publicar, revisade a lista de addenda et corrigenda."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "alea iacta est",
+  "meaning": "A sorte está botada; xa non hai volta atrás (frase atribuída a César ao cruzar o Rubicón).",
+  "examples": [
+   "Enviou o correo e pensou: alea iacta est.",
+   "Unha vez asinado o contrato, alea iacta est."
+  ],
+  "pressLinks": [
+   {
+    "title": "Álea iacta est",
+    "url": "https://www.elimparcial.es/noticia/261687/opinion/alea-iacta-est-.html",
+    "source": "El Imparcial",
+    "date": "2023-11-18"
+   }
+  ]
+ },
+ {
+  "term": "alma mater",
+  "meaning": "Nai nutricia; úsase para referirse á universidade onde alguén estudou.",
+  "examples": [
+   "Volveu á súa alma mater para dar unha conferencia.",
+   "A USC é a alma mater de moitos profesionais galegos."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ante meridiem (a.m.)",
+  "meaning": "Antes do mediodía; úsase para indicar a franxa horaria da mañá.",
+  "examples": [
+   "A reunión é ás 10 a.m.",
+   "O voo sae ás 8 ante meridiem."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ave, Caesar, morituri te salutant",
+  "meaning": "Salve, César, os que van morrer salúdante (saúdo atribuído aos gladiadores).",
+  "examples": [
+   "Nas películas de romanos sempre sae a frase ave, Caesar, morituri te salutant.",
+   "Citou en broma aquilo de ave, Caesar, morituri te salutant antes do exame."
+  ],
+  "pressLinks": [
+   {
+    "title": "Morituri te salutant",
+    "url": "https://www.diariodevalladolid.es/opinion/231211/178979/morituri-te-salutant.html",
+    "source": "Diario de Valladolid",
+    "date": "2023-12-11"
+   }
+  ]
+ },
+ {
+  "term": "bis",
+  "meaning": "Dúas veces; pídese cando se quere que se repita algo, como unha actuación.",
+  "examples": [
+   "O público pediu bis ao final do concerto.",
+   "Repetiu o número dous veces, coma un bis."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "bona fide",
+  "meaning": "De boa fe, con intención honesta.",
+  "examples": [
+   "Actuou bona fide, sen intención de enganar a ninguén.",
+   "O acordo asinouse bona fide entre as dúas partes."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "calamo currente",
+  "meaning": "Coa pluma correndo; de forma improvisada, sen revisar, escribindo rapidamente.",
+  "examples": [
+   "Escribiu a carta calamo currente, sen pensala moito.",
+   "O informe nótase feito calamo currente, con varios erros."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "carnes tollendas",
+  "meaning": "Orixe da palabra «carnaval» (literalmente «quitar as carnes», véspera da Coresma).",
+  "examples": [
+   "A orixe de carnaval está en carnes tollendas.",
+   "Explicáronlle na clase que carnaval vén de carnes tollendas."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "carpe diem!",
+  "meaning": "Aproveita o día de hoxe (Horacio); vive o presente.",
+  "examples": [
+   "Decidiu apuntar a ese viaxe seguindo o lema carpe diem.",
+   "Carpe diem foi o consello que lle deu a súa avoa."
+  ],
+  "pressLinks": [
+   {
+    "title": "Ethan Hawke vuelve al centro de la escena con 'Luna Azul' y un prestigio renovado",
+    "url": "https://www.infobae.com/entretenimiento/2025/12/28/ethan-hawke-vuelve-al-centro-de-la-escena-con-luna-azul-y-un-prestigio-renovado/",
+    "source": "Infobae",
+    "date": "2025-12-28"
+   }
+  ]
+ },
+ {
+  "term": "casus belli",
+  "meaning": "Feito que provoca ou xustifica unha guerra ou un conflito.",
+  "examples": [
+   "Ese incidente fronteirizo foi o casus belli do conflito.",
+   "Buscaban un casus belli para xustificar a invasión."
+  ],
+  "pressLinks": [
+   {
+    "title": "Casus belli",
+    "url": "https://www.mallorcadiario.com/casus-belli-vicente-enguidanos",
+    "source": "Mallorca Diario",
+    "date": "2026-03-11"
+   }
+  ]
+ },
+ {
+  "term": "cave canem!",
+  "meaning": "Coidado co can! (inscrición típica á entrada das casas romanas).",
+  "examples": [
+   "Atoparon un mosaico coa inscrición cave canem na entrada da vila romana.",
+   "Puxo un cartel de cave canem na porta, en broma."
+  ],
+  "pressLinks": [
+   {
+    "title": "CAVE CANEM: ¡Cuidado con el perro!",
+    "url": "https://www.periodistadigital.com/politica/opinion/20250225/cave-canem-cuidado-perro-noticia-689405063435/",
+    "source": "Periodista Digital",
+    "date": "2025-02-25"
+   }
+  ]
+ },
+ {
+  "term": "cogito, ergo sum",
+  "meaning": "Penso, logo existo (Descartes); a certeza do propio pensamento como proba da existencia.",
+  "examples": [
+   "Na clase de filosofía explicaron o cogito, ergo sum de Descartes.",
+   "Citou o cogito, ergo sum para defender a súa idea."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "conditio sine qua non",
+  "meaning": "Condición sen a cal non (é posible algo); requisito indispensable.",
+  "examples": [
+   "A puntualidade é conditio sine qua non para o posto.",
+   "Ter o título é conditio sine qua non para presentarse."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "contra naturam",
+  "meaning": "Contra a natureza, antinatural.",
+  "examples": [
+   "Considerou que aquilo era contra naturam.",
+   "Alegaron que a práctica era contra naturam."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "corpore insepulto",
+  "meaning": "Con corpo insepulto; dise da misa ou funeral que se celebra co cadáver presente.",
+  "examples": [
+   "O funeral corpore insepulto celebrouse na igrexa parroquial.",
+   "Anunciaron unha misa corpore insepulto para o venres."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "corpus delicti",
+  "meaning": "Corpo do delito; probas materiais dun crime.",
+  "examples": [
+   "A policía non atopou o corpus delicti do roubo.",
+   "Sen corpus delicti é difícil probar o crime."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "cum laude",
+  "meaning": "Con eloxio; cualificación máxima nalgúns títulos académicos.",
+  "examples": [
+   "Defendeu a súa tese e obtivo o cum laude.",
+   "Rematou o doutoramento cum laude."
+  ],
+  "pressLinks": [
+   {
+    "title": "España, la inagotable fábrica de tesis doctorales 'cum laude': \"Lo raro es que no te lo den\"",
+    "url": "https://www.elespanol.com/ciencia/salud/20230211/espana-inagotable-fabrica-tesis-doctorales-laude-no/740176389_0.html",
+    "source": "El Español",
+    "date": "2023-02-11"
+   }
+  ]
+ },
+ {
+  "term": "curriculum vitae",
+  "meaning": "Carreira da vida; documento co resumo da formación e experiencia dunha persoa.",
+  "examples": [
+   "Enviou o seu currículum vitae á empresa.",
+   "Actualizou o curriculum vitae antes de buscar traballo."
+  ],
+  "pressLinks": [
+   {
+    "title": "Francisco Fernández Yuste, orientador laboral, explica cómo hacer un CV efectivo: \"Vas a estar añadiendo cursos, experiencias laborales y retocando\"",
+    "url": "https://www.infobae.com/espana/2025/12/16/francisco-fernandez-yuste-orientador-laboral-explica-como-hacer-un-cv-efectivo-vas-a-estar-anadiendo-cursos-experiencias-laborales-y-retocando/",
+    "source": "Infobae",
+    "date": "2025-12-16"
+   }
+  ]
+ },
+ {
+  "term": "cursus honorum",
+  "meaning": "Carreira dos honores; secuencia de cargos públicos na Roma antiga, hoxe usado para unha carreira profesional/política.",
+  "examples": [
+   "Describiu o seu cursus honorum político desde concelleiro a alcalde.",
+   "O cursus honorum romano esixía unha idade mínima para cada cargo."
+  ],
+  "pressLinks": [
+   {
+    "title": "El cursus honorum, la carrera política de la antigua Roma hasta el Senado",
+    "url": "https://historia.nationalgeographic.com.es/a/cursus-honorum-carrera-politica-antigua-roma-hasta-senado_17447",
+    "source": "National Geographic Historia (España)"
+   }
+  ]
+ },
+ {
+  "term": "de facto",
+  "meaning": "De feito, na práctica (aínda que non oficialmente).",
+  "examples": [
+   "Convertéronse en socios de facto sen asinar nada.",
+   "É o líder de facto do grupo, aínda que non teña o cargo."
+  ],
+  "pressLinks": [
+   {
+    "title": "González Urrutia tiende la mano a una transición \"ordenada y concertada\" en Venezuela",
+    "url": "https://www.infobae.com/america/agencias/2024/12/10/gonzalez-urrutia-tiende-la-mano-a-una-transicion-ordenada-y-concertada-en-venezuela/",
+    "source": "Infobae",
+    "date": "2024-12-10"
+   }
+  ]
+ },
+ {
+  "term": "de incognito",
+  "meaning": "De forma anónima, sen dar a coñecer a identidade.",
+  "examples": [
+   "O actor viaxaba de incognito para evitar aos paparazzi.",
+   "Visitou a cidade de incognito, sen que ninguén o recoñecese."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "de iure",
+  "meaning": "De dereito, legalmente (fronte a «de facto»).",
+  "examples": [
+   "Non é o propietario de iure, aínda que viva alí.",
+   "De iure, o cargo correspóndelle a ela."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "deo volente",
+  "meaning": "Se Deus quere; expresión que introduce unha condición ou incerteza sobre o futuro.",
+  "examples": [
+   "Chegaremos mañá, deo volente.",
+   "Rematarán a obra este ano, deo volente."
+  ],
+  "pressLinks": [
+   {
+    "title": "A cincuenta años de El 45",
+    "url": "https://www.lagaceta.com.ar/nota/825991/la-gaceta-literaria/a-cincuenta-anos-45.html",
+    "source": "La Gaceta (Tucumán, Argentina)",
+    "date": "2019-11-22"
+   }
+  ]
+ },
+ {
+  "term": "do ut des",
+  "meaning": "Dou para que dea; principio de intercambio de favores.",
+  "examples": [
+   "A relación entre eles funciona baixo a lóxica do do ut des.",
+   "Nas negociacións internacionais moitas veces impera o do ut des."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "doctor honoris causa",
+  "meaning": "Doutor por causa de honra; título honorífico concedido por unha universidade.",
+  "examples": [
+   "A universidade nomeouno doctor honoris causa.",
+   "Recibiu o doctor honoris causa por toda a súa carreira."
+  ],
+  "pressLinks": [
+   {
+    "title": "El catedrático de la USC Ángel Carracedo, investido doctor 'honoris causa' por la Complutense de Madrid",
+    "url": "https://www.elprogreso.es/articulo/galicia/catedratico-usc-angel-carracedo-investido-doctor-honoris-causa-complutense-madrid/202312011954021712580.html",
+    "source": "El Progreso (Lugo)",
+    "date": "2023-12-01"
+   }
+  ]
+ },
+ {
+  "term": "dura lex sed lex",
+  "meaning": "A lei é dura, pero é a lei.",
+  "examples": [
+   "O xuíz aplicou a norma alegando dura lex sed lex.",
+   "Aínda que pareza inxusto, dura lex sed lex."
+  ],
+  "pressLinks": [
+   {
+    "title": "Participación ciudadana en la gestión de los servicios sanitarios públicos",
+    "url": "http://www.redaccionmedica.com/opinion/participacin-ciudadana-en-la-gestin-de-los-servicios-sanitarios-pblicos-2029",
+    "source": "Redacción Médica",
+    "date": "2015-11-03"
+   }
+  ]
+ },
+ {
+  "term": "ecce homo!",
+  "meaning": "Velaquí o home! (palabras de Pilato ao presentar a Xesús); úsase tamén para algo moi deteriorado.",
+  "examples": [
+   "Chegou á casa feito un ecce homo despois do accidente.",
+   "A frase ecce homo faise famosa por un cadro moi mal restaurado en Borja."
+  ],
+  "pressLinks": [
+   {
+    "title": "Cecilia Giménez y su Ecce Homo: de vergüenza nacional a salvadores de Borja",
+    "url": "https://www.elespanol.com/bluper/series/20160707/138236764_0.html",
+    "source": "El Español",
+    "date": "2016-07-07"
+   }
+  ]
+ },
+ {
+  "term": "editio princeps",
+  "meaning": "Edición príncipe; primeira edición impresa dunha obra.",
+  "examples": [
+   "Consérvase a editio princeps do Quixote nesa biblioteca.",
+   "A editio princeps desa obra é do século XVI."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "errare humanum est",
+  "meaning": "Errar é humano.",
+  "examples": [
+   "Non te preocupes polo erro, errare humanum est.",
+   "Errare humanum est, pero perseverare diabolicum, engadiu o profesor."
+  ],
+  "pressLinks": [
+   {
+    "title": "Cuando errar es inhumano",
+    "url": "https://correodelsur.com/opinion/20191210_cuando-errar-es-inhumano.html",
+    "source": "Correo del Sur (Bolivia)",
+    "date": "2019-12-10"
+   }
+  ]
+ },
+ {
+  "term": "et cetera",
+  "meaning": "E o resto, e así sucesivamente.",
+  "examples": [
+   "Levou libros, cadernos, bolígrafos, et cetera.",
+   "A lista inclúe froitas, verduras, et cetera."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ex aequo",
+  "meaning": "En igualdade; cando dous ou máis comparten un premio ou posto.",
+  "examples": [
+   "Repartiron o premio ex aequo entre as dúas finalistas.",
+   "Quedaron ex aequo no primeiro posto do concurso."
+  ],
+  "pressLinks": [
+   {
+    "title": "Movimiento Feminista de Albacete, Rozalén y Luis Pastor, 'ex aequo', y la Asociación por un Acceso Justo al Medicamento, serán reconocidos este jueves con los XI Premios Solidarios del Grupo 'La Cerca'",
+    "url": "http://www.lacerca.com/noticias/albacete/albacete-ex-jueves-xi-premios-solidarios-grupo-cerca-491112-1.html",
+    "source": "La Cerca",
+    "date": "2019-12-11"
+   }
+  ]
+ },
+ {
+  "term": "ex cathedra",
+  "meaning": "Desde a cátedra; con autoridade, de forma dogmática ou pouco discutible.",
+  "examples": [
+   "Falaba ex cathedra, sen admitir réplica.",
+   "O profesor explicou o tema ex cathedra."
+  ],
+  "pressLinks": [
+   {
+    "title": "Un Rey cobarde y un Sánchez enloquecido… formarán un gobierno frentepopulista",
+    "url": "https://www.hispanidad.com/confidencial/rey-cobarde-sanchez-enloquecido-formaran-gobierno-frentepopulista_12014916_102.html",
+    "source": "Hispanidad",
+    "date": "2019-12-12"
+   }
+  ]
+ },
+ {
+  "term": "ex iure",
+  "meaning": "Por dereito, conforme á lei.",
+  "examples": [
+   "Reclamou o ben ex iure, amparándose na lei.",
+   "Ex iure, o contrato é nulo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ex libris",
+  "meaning": "Dos libros de...; selo ou etiqueta que indica o propietario dun libro.",
+  "examples": [
+   "Puxo un ex libris en todos os seus libros.",
+   "Atopouse un ex libris antigo na primeira páxina."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ex professo",
+  "meaning": "De propósito, deliberadamente, con esa finalidade concreta.",
+  "examples": [
+   "Escribiu o artigo ex professo para a revista.",
+   "Deseñou o curso ex professo para principiantes."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "exempli gratia",
+  "meaning": "Por exemplo (orixe da abreviatura «e.g.»).",
+  "examples": [
+   "Hai varias froitas tropicais, exempli gratia, a mango ou a papaia.",
+   "Cómpre citar fontes fiables, exempli gratia, artigos científicos."
+  ],
+  "pressLinks": [
+   {
+    "title": "La reforma sindical burocrática",
+    "url": "http://www.educacionfutura.org/la-reforma-sindical-burocratica/",
+    "source": "Educación Futura (México)",
+    "date": "2019-10-16"
+   }
+  ]
+ },
+ {
+  "term": "extra muros",
+  "meaning": "Fóra das murallas; fóra dun lugar, institución ou ámbito determinado.",
+  "examples": [
+   "A reunión celebrouse extra muros da universidade.",
+   "Viven extra muros da cidade vella."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "facta, non verba",
+  "meaning": "Feitos, non palabras.",
+  "examples": [
+   "Esixiu facta, non verba ao goberno.",
+   "A campaña resumiuse en facta, non verba."
+  ],
+  "pressLinks": [
+   {
+    "title": "Facta, non verba",
+    "url": "https://www.lavozdealmeria.com/noticia/9/opinion/194323/facta-non-verba",
+    "source": "La Voz de Almería"
+   }
+  ]
+ },
+ {
+  "term": "fiat lux!",
+  "meaning": "Fágase a luz! (Xénese); expresión do inicio da creación.",
+  "examples": [
+   "Ao acender as luces do escenario, alguén exclamou fiat lux!",
+   "O libro comeza cunha cita de fiat lux!"
+  ],
+  "pressLinks": [
+   {
+    "title": "'Fiat Lux': los mensajes de Ábalos y Air Europa",
+    "url": "https://www.almendron.com/tribuna/fiat-lux-los-mensajes-de-abalos-y-air-europa/",
+    "source": "El Español (recogido en Almendrón - Revista de Prensa)",
+    "date": "2025-05-18"
+   }
+  ]
+ },
+ {
+  "term": "gratis et amore",
+  "meaning": "De balde e por amor; sen cobrar nada, de forma desinteresada.",
+  "examples": [
+   "Axudounos gratis et amore, sen cobrar nada.",
+   "Fixo o traballo gratis et amore polo cariño ao proxecto."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "grosso modo",
+  "meaning": "A grandes trazos, de forma aproximada.",
+  "examples": [
+   "Explicoulle grosso modo como funciona o proceso.",
+   "Grosso modo, o proxecto custará uns dez mil euros."
+  ],
+  "pressLinks": [
+   {
+    "title": "¿Es \"grosso modo\" o \"a grosso modo\"? La RAE da la respuesta",
+    "url": "https://www.libertaddigital.com/cultura/2025-03-26/es-grosso-modo-o-a-grosso-modo-la-rae-da-la-respuesta-7234542/",
+    "source": "Libertad Digital",
+    "date": "2025-03-26"
+   }
+  ]
+ },
+ {
+  "term": "habeas corpus",
+  "meaning": "Que teñas o corpo (presente); dereito a comparecer fisicamente ante un xuíz.",
+  "examples": [
+   "O avogado solicitou un habeas corpus para o seu cliente.",
+   "O habeas corpus é unha garantía fundamental do dereito."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "habent sua fata libelli",
+  "meaning": "Os libros teñen o seu propio destino.",
+  "examples": [
+   "Aquel libro esquecido acabou sendo un clásico: habent sua fata libelli.",
+   "Citou a frase habent sua fata libelli ao falar da recepción da súa obra."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "hic et nunc",
+  "meaning": "Aquí e agora.",
+  "examples": [
+   "Esixiu unha resposta hic et nunc.",
+   "Hai que decidilo hic et nunc, non hai tempo que perder."
+  ],
+  "pressLinks": [
+   {
+    "title": "La cuarentena que nos negamos a vivir \"hic et nunc\"",
+    "url": "https://www.elespectador.com/opinion/columnistas/esteban-carlos-mejia/la-cuarentena-que-nos-negamos-a-vivir-hic-et-nunc-column/",
+    "source": "El Espectador",
+    "date": "2020-08-29"
+   }
+  ]
+ },
+ {
+  "term": "homo homini lupus",
+  "meaning": "O home é un lobo para o home (Plauto/Hobbes).",
+  "examples": [
+   "A frase homo homini lupus resume a súa visión pesimista da sociedade.",
+   "Citou homo homini lupus para explicar a competencia feroz do sector."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "homo sapiens",
+  "meaning": "Home sabio; especie á que pertence o ser humano actual.",
+  "examples": [
+   "O Homo sapiens apareceu hai uns 300.000 anos.",
+   "Estudaron a evolución desde os primeiros homínidos ata o Homo sapiens."
+  ],
+  "pressLinks": [
+   {
+    "title": "Neanderthal: Hallan restos humanos en Grecia de hace 210.000 años",
+    "url": "https://www.publico.es/internacional/neanderthal-hallan-restos-humanos-grecia-210000-anos.html",
+    "source": "Público",
+    "date": "2019-07-10"
+   }
+  ]
+ },
+ {
+  "term": "hora est iam de somno surgere",
+  "meaning": "Xa é hora de erguerse do sono; frase para espertar a alguén.",
+  "examples": [
+   "Espertouno cantando hora est iam de somno surgere.",
+   "Puxo o reloxo coa frase hora est iam de somno surgere de aviso."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "horror vacui",
+  "meaning": "Medo ao baleiro; tendencia a encher todo o espazo dispoñible (na arte, na decoración).",
+  "examples": [
+   "A decoración da casa amosaba un claro horror vacui.",
+   "Ese estilo pictórico caracterízase polo horror vacui."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ibidem",
+  "meaning": "Alí mesmo; úsase en citas para remitir á mesma obra citada antes.",
+  "examples": [
+   "Na nota a pé de páxina puxo «ibidem, p. 34».",
+   "Cando se cita a mesma fonte seguida, emprégase ibidem."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "id est",
+  "meaning": "Isto é (orixe da abreviatura «i.e.»).",
+  "examples": [
+   "Chegou tarde, id est, despois das dez.",
+   "O prazo remata mañá, id est, o día 15."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "idem",
+  "meaning": "O mesmo; úsase para non repetir un nome xa citado.",
+  "examples": [
+   "O primeiro estudo é de López (2020); o segundo, idem.",
+   "Citou dous artigos do mesmo autor, o segundo marcado como idem."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "imprimatur / imprimi potest",
+  "meaning": "Que se imprima / pode imprimirse; autorización eclesiástica para publicar un libro.",
+  "examples": [
+   "O bispo concedeu o imprimatur á obra relixiosa.",
+   "O libro levaba o selo de imprimi potest na primeira páxina."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in absentia",
+  "meaning": "En ausencia (da persoa afectada).",
+  "examples": [
+   "Foi xulgado in absentia por non presentarse ao xuízo.",
+   "Concedéronlle o premio in absentia porque non puido asistir."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in aeternum",
+  "meaning": "Para sempre, eternamente.",
+  "examples": [
+   "Prometeulle amor in aeternum.",
+   "Aquela decisión marcaríao in aeternum."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in albis",
+  "meaning": "En branco; quedar sen saber que dicir ou facer.",
+  "examples": [
+   "Quedou in albis diante da pregunta do tribunal.",
+   "Ao velo, quedei in albis e non souben que dicir."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in articulo mortis",
+  "meaning": "No momento da morte; dise dun matrimonio ou acto realizado cando alguén está a piques de morrer.",
+  "examples": [
+   "Casáronse in articulo mortis no hospital.",
+   "Fixo testamento in articulo mortis."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in dubio pro reo",
+  "meaning": "Na dúbida, a favor do reo; principio xurídico de presunción de inocencia.",
+  "examples": [
+   "O tribunal absolveuno aplicando o principio in dubio pro reo.",
+   "Ante a falta de probas, rexeu o in dubio pro reo."
+  ],
+  "pressLinks": [
+   {
+    "title": "TSJyL absuelve a un joven condenado por tratar de forzar a una amiga en los baños de una 'disco'",
+    "url": "https://www.infobae.com/espana/agencias/2024/10/16/tsjyl-absuelve-a-un-joven-condenado-por-tratar-de-forzar-a-una-amiga-en-los-banos-de-una-disco/",
+    "source": "Infobae España",
+    "date": "2024-10-16"
+   }
+  ]
+ },
+ {
+  "term": "in extremis",
+  "meaning": "No último momento, cando xa case non hai tempo.",
+  "examples": [
+   "Chegaron á estación in extremis, xusto antes de saír o tren.",
+   "Salvaron o partido in extremis, no último minuto."
+  ],
+  "pressLinks": [
+   {
+    "title": "0-1. Llompart, a un minuto del final, da la victoria al Badalona contra el Espanyol",
+    "url": "https://www.infobae.com/espana/agencias/2026/09/05/0-1-llompart-a-un-minuto-del-final-da-la-victoria-al-badalona-contra-el-espanyol/",
+    "source": "Infobae España",
+    "date": "2026-09-05"
+   }
+  ]
+ },
+ {
+  "term": "in fraganti / in flagranti",
+  "meaning": "No propio momento do delito; ser sorprendido cometendo un acto.",
+  "examples": [
+   "Colleron ao ladrón in fraganti.",
+   "Pillárono in flagranti mentres copiaba no exame."
+  ],
+  "pressLinks": [
+   {
+    "title": "Detenido in fraganti en Madrid un 'falso ejecutivo' cuando iba a estafar 120.000 euros",
+    "url": "https://www.infobae.com/espana/agencias/2026/09/09/detenido-in-fraganti-en-madrid-un-falso-ejecutivo-cuando-iba-a-estafar-120000-euros/",
+    "source": "Infobae España",
+    "date": "2026-09-09"
+   }
+  ]
+ },
+ {
+  "term": "in illo tempore",
+  "meaning": "Naquel tempo; hai moito tempo.",
+  "examples": [
+   "In illo tempore, non había móbiles nin internet.",
+   "Contaba as súas batallitas de in illo tempore."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in itinere",
+  "meaning": "Durante o traxecto, polo camiño.",
+  "examples": [
+   "O accidente ocorreu in itinere, indo ao traballo.",
+   "Xurdiron varios problemas in itinere."
+  ],
+  "pressLinks": [
+   {
+    "title": "La Justicia confirma como accidente laboral 'in itinere' el resbalón que sufrió una trabajadora autónoma en su garaje cuando iba a trabajar",
+    "url": "https://www.infobae.com/espana/2026/03/19/la-justicia-confirma-como-accidente-laboral-in-itinere-el-resbalon-que-sufrio-una-trabajadora-autonoma-en-su-garaje-cuando-iba-a-trabajar/",
+    "source": "Infobae España",
+    "date": "2026-03-19"
+   }
+  ]
+ },
+ {
+  "term": "in medio virtus",
+  "meaning": "A virtude está no medio; eloxio do termo medio, sen extremos.",
+  "examples": [
+   "Segundo o principio de in medio virtus, evitou os extremos.",
+   "In medio virtus resume ben a filosofía aristotélica do termo medio."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in memoriam",
+  "meaning": "En memoria de; adicado ao recordo de alguén falecido.",
+  "examples": [
+   "Publicouse un artigo in memoriam do escritor.",
+   "Adicaron o concerto in memoriam das vítimas."
+  ],
+  "pressLinks": [
+   {
+    "title": "El nostálgico discurso de John Travolta a Olivia Newton-John en el 'In memoriam' de los Oscar 2023",
+    "url": "https://www.infobae.com/entretenimiento/2023/03/13/el-nostalgico-discurso-de-john-travolta-a-olivia-newton-john-en-el-in-memoriam-de-los-oscar-2023/",
+    "source": "Infobae",
+    "date": "2023-03-13"
+   }
+  ]
+ },
+ {
+  "term": "in mente",
+  "meaning": "Na mente, pensado pero non dito ou feito aínda.",
+  "examples": [
+   "Xa tiña in mente un plan para o verán.",
+   "Garda algunha idea in mente para o proxecto."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in pectore",
+  "meaning": "No peito; decidido pero aínda non anunciado publicamente.",
+  "examples": [
+   "O papa nomeou un cardeal in pectore.",
+   "O sucesor xa estaba decidido in pectore, aínda que non se dixera."
+  ],
+  "pressLinks": [
+   {
+    "title": "Recasens (Renault), nuevo presidente 'in pectore' de Anfac",
+    "url": "https://cronicaglobal.elespanol.com/business/20240718/recasens-renault-nuevo-presidente-in-pectore-anfac/871412956_0.html",
+    "source": "Crónica Global (El Español)",
+    "date": "2024-07-18"
+   }
+  ]
+ },
+ {
+  "term": "in saecula saeculorum",
+  "meaning": "Polos séculos dos séculos; para sempre.",
+  "examples": [
+   "Prometeu fidelidade in saecula saeculorum.",
+   "Aquilo quedaría gravado na memoria in saecula saeculorum."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in situ",
+  "meaning": "No propio lugar, sen desprazar nada.",
+  "examples": [
+   "Os arqueólogos estudaron os restos in situ.",
+   "Fixeron a reparación in situ, sen levar a peza ao taller."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in vino veritas",
+  "meaning": "No viño está a verdade; dise que o alcohol fai que a xente diga o que realmente pensa.",
+  "examples": [
+   "Despois duns viños, confesou todo: in vino veritas.",
+   "In vino veritas, dixo, ao ver como falaba sen filtro."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "in vitro",
+  "meaning": "No vidro; dise dos procesos realizados fóra do organismo, en laboratorio.",
+  "examples": [
+   "Sometéronse a un tratamento de fecundación in vitro.",
+   "O experimento realizouse in vitro antes de probalo en animais."
+  ],
+  "pressLinks": [
+   {
+    "title": "Fecundación 'in vitro': La primera 'bebé probeta' de España cumple hoy 35 años",
+    "url": "https://www.publico.es/sociedad/primera-bebe-probeta-espana-cumple.html",
+    "source": "Público",
+    "date": "2019-07-12"
+   }
+  ]
+ },
+ {
+  "term": "intelligentibus pauca",
+  "meaning": "Para os que entenden, abondan poucas palabras.",
+  "examples": [
+   "Non quixo explicar máis, intelligentibus pauca.",
+   "Deixouno caer só con intelligentibus pauca."
+  ],
+  "pressLinks": [
+   {
+    "title": "Compromiso inexcusable",
+    "url": "https://www.elcorreogallego.es/hemeroteca/compromiso-inexcusable-MNCG811937",
+    "source": "El Correo Gallego",
+    "date": "2013-06-15"
+   }
+  ]
+ },
+ {
+  "term": "inter nos",
+  "meaning": "Entre nós; de forma confidencial.",
+  "examples": [
+   "Isto que che conto, inter nos, non o digas a ninguén.",
+   "Falaron do asunto inter nos, en privado."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "interim",
+  "meaning": "Mentres tanto; tamén se usa para un cargo temporal («interino»).",
+  "examples": [
+   "Nomearon un director interim ata que se cubra a praza.",
+   "Interim, seguirán traballando co plan anterior."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ipso facto",
+  "meaning": "Polo propio feito; inmediatamente, ao instante.",
+  "examples": [
+   "Ao velo chegar, marchou ipso facto.",
+   "Aceptou a oferta ipso facto."
+  ],
+  "pressLinks": [
+   {
+    "title": "¿Se dice «ipso facto» o «de ipso facto»?",
+    "url": "https://www.elespectador.com/opinion/columnistas/maria-alejandra-medina-cartagena-gazapera/se-dice-ipso-facto-o-de-ipso-facto/",
+    "source": "El Espectador",
+    "date": "2022-02-07"
+   }
+  ]
+ },
+ {
+  "term": "lapsus calami",
+  "meaning": "Erro da pluma; erro ao escribir.",
+  "examples": [
+   "Ese erro no informe foi só un lapsus calami.",
+   "Corrixiu o lapsus calami antes de enviar a carta."
+  ],
+  "pressLinks": [
+   {
+    "title": "Prevaricato no se configura cuando existe un acto involuntario o 'lapsus calami'",
+    "url": "https://www.ambitojuridico.com/noticias/penal/prevaricato-no-se-configura-cuando-existe-un-acto-involuntario-o-lapsus-calami-309-p",
+    "source": "Ámbito Jurídico",
+    "date": "2015-05-29"
+   }
+  ]
+ },
+ {
+  "term": "lapsus linguae",
+  "meaning": "Erro da lingua; erro ao falar.",
+  "examples": [
+   "Chamoulle polo nome doutra persoa por un lapsus linguae.",
+   "Foi un simple lapsus linguae, non quixo dicir iso."
+  ],
+  "pressLinks": [
+   {
+    "title": "Lapsus linguae",
+    "url": "https://www.abc.com.py/edicion-impresa/opinion/lapsus-linguae-1502077.html",
+    "source": "ABC Color",
+    "date": "2016-07-23"
+   }
+  ]
+ },
+ {
+  "term": "lato sensu",
+  "meaning": "En sentido amplo.",
+  "examples": [
+   "Lato sensu, calquera texto antigo podería chamarse «clásico».",
+   "Empregou o termo «arte» lato sensu, incluíndo tamén o artesanal."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "magister dixit",
+  "meaning": "O mestre dixo (así); argumento de autoridade sen máis xustificación.",
+  "examples": [
+   "Non deu razóns, só dixo magister dixit.",
+   "Criticaron o magister dixit como forma de impor unha opinión."
+  ],
+  "pressLinks": [
+   {
+    "title": "Magister dixit",
+    "url": "https://www.elcolombiano.com/opinion/columnistas/magister-dixit-KG16108367",
+    "source": "El Colombiano",
+    "date": "2021-12-03"
+   }
+  ]
+ },
+ {
+  "term": "manu militari",
+  "meaning": "Coa man militar; pola forza das armas.",
+  "examples": [
+   "A protesta foi disolvida manu militari.",
+   "Impuxeron a orde manu militari."
+  ],
+  "pressLinks": [
+   {
+    "title": "Manu militari",
+    "url": "https://www.eleconomista.es/firmas/noticias/8497306/07/17/Manu-militari.html",
+    "source": "elEconomista.es",
+    "date": "2017-07"
+   }
+  ]
+ },
+ {
+  "term": "mare magnum",
+  "meaning": "Mar grande; confusión, abundancia desordenada de cousas.",
+  "examples": [
+   "Había un mare magnum de papeis sobre a mesa.",
+   "O debate converteuse nun mare magnum de opinións contraditorias."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "mea culpa",
+  "meaning": "Por culpa miña; recoñecemento dun erro propio.",
+  "examples": [
+   "Recoñeceu o erro cun sincero mea culpa.",
+   "Fixo mea culpa publicamente polo fallo cometido."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "memento mori!",
+  "meaning": "Lembra que has de morrer; reflexión sobre a morte e o carácter pasaxeiro da vida.",
+  "examples": [
+   "A caveira no cadro é un clásico memento mori.",
+   "O memento mori aparece en moita arte barroca."
+  ],
+  "pressLinks": [
+   {
+    "title": "Memento mori",
+    "url": "https://www.eldebate.com/espana/la-voz-de-cordoba/opinion/20260621/memento-mori_430695.html",
+    "source": "El Debate (La Voz de Córdoba)",
+    "date": "2026-06-21"
+   }
+  ]
+ },
+ {
+  "term": "memorandum",
+  "meaning": "Cousa que hai que lembrar; documento breve con información relevante.",
+  "examples": [
+   "Enviou un memorandum coas conclusións da reunión.",
+   "O memorandum resumía os puntos clave do acordo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "mens sana in corpore sano",
+  "meaning": "Mente sa en corpo san.",
+  "examples": [
+   "O lema do club deportivo é mens sana in corpore sano.",
+   "Recoméndase facer exercicio seguindo o principio de mens sana in corpore sano."
+  ],
+  "pressLinks": [
+   {
+    "title": "'Mens sana in corpore sano'",
+    "url": "https://www.ultimahora.es/noticias/sociedad/2024/07/29/2212669/mens-sana-corpore-sano.html",
+    "source": "Última Hora",
+    "date": "2024-07-29"
+   }
+  ]
+ },
+ {
+  "term": "modus operandi",
+  "meaning": "Modo de operar; forma habitual de actuar de alguén.",
+  "examples": [
+   "A policía recoñeceu o modus operandi do ladrón.",
+   "Ese é o seu modus operandi en todos os proxectos."
+  ],
+  "pressLinks": [
+   {
+    "title": "Juanma Rodríguez advierte un 'modus operandi' del arbitraje español contra el Real Madrid",
+    "url": "https://www.bernabeudigital.com/noticias/juanma-rodriguez-advierte-modus-operandi-arbitraje-espanol-real-madrid-346434",
+    "source": "Bernabéu Digital",
+    "date": "2026-09-06"
+   }
+  ]
+ },
+ {
+  "term": "modus vivendi",
+  "meaning": "Modo de vivir; forma de gañarse a vida ou de convivir.",
+  "examples": [
+   "Atopou o seu modus vivendi como artesán.",
+   "Chegaron a un modus vivendi aceptable para ambas partes."
+  ],
+  "pressLinks": [
+   {
+    "title": "Modus Vivendi, el pub más antiguo de Santiago (y de Galicia) cumple 50 años",
+    "url": "https://www.elespanol.com/quincemil/cultura/conoce-santiago/20220514/modus-vivendi-pub-antiguo-santiago-galicia-cumple-anos/672432963_0.html",
+    "source": "El Español (Quincemil)",
+    "date": "2022-05-14"
+   }
+  ]
+ },
+ {
+  "term": "mortis causa",
+  "meaning": "Por causa de morte; dise das doazóns ou transmisións que se fan por testamento.",
+  "examples": [
+   "A herdanza transmitiuse mortis causa.",
+   "Fixo unha doazón mortis causa a favor dos seus fillos."
+  ],
+  "pressLinks": [
+   {
+    "title": "El TSXG aclara que la herencia en vida no tributa en el IRPF por ser pacto sucesorio y una disposición 'mortis causa'",
+    "url": "https://www.elcorreogallego.es/galicia/2016/02/12/tsxg-aclara-herencia-vida-tributa-110373862.html",
+    "source": "El Correo Gallego",
+    "date": "2016-02-12"
+   }
+  ]
+ },
+ {
+  "term": "motu proprio",
+  "meaning": "Por propio impulso, por vontade propia.",
+  "examples": [
+   "Presentou a dimisión motu proprio.",
+   "Ofreceuse motu proprio para axudar."
+  ],
+  "pressLinks": [
+   {
+    "title": "Un experto en lenguaje revela los errores comunes de «motu proprio» en nuestro día a día",
+    "url": "https://www.eldebate.com/cultura/20241128/experto-lenguaje-revela-errores-comunes-motu-proprio-nuestro-dia-dia-cns_248940.html",
+    "source": "El Debate",
+    "date": "2024-11-28"
+   }
+  ]
+ },
+ {
+  "term": "mutatis mutandis",
+  "meaning": "Cambiando o que haxa que cambiar; aplicando os axustes necesarios.",
+  "examples": [
+   "A mesma solución serve, mutatis mutandis, para outros casos.",
+   "Aplicouse a norma anterior, mutatis mutandis, á nova situación."
+  ],
+  "pressLinks": [
+   {
+    "title": "FundéuRAE: \"mutatis mutandis\", no \"mutatis mutandi\"",
+    "url": "https://www.cope.es/actualidad/cultura/noticias/fundeurae-mutatis-mutandis-mutatis-mutandi-20240815_3443430",
+    "source": "COPE",
+    "date": "2024-08-15"
+   }
+  ]
+ },
+ {
+  "term": "nemine discrepante",
+  "meaning": "Sen ninguén en desacordo; por unanimidade.",
+  "examples": [
+   "A proposta aprobouse nemine discrepante.",
+   "Votaron nemine discrepante a favor da moción."
+  ],
+  "pressLinks": [
+   {
+    "title": "Nemine discrepante",
+    "url": "https://www.elnacional.com/2026/02/nemine-discrepante/",
+    "source": "El Nacional",
+    "date": "2026-02-18"
+   }
+  ]
+ },
+ {
+  "term": "nihil novum sub sole",
+  "meaning": "Nada novo baixo o sol.",
+  "examples": [
+   "Ao ver repetirse o mesmo erro, pensou: nihil novum sub sole.",
+   "Nihil novum sub sole, esta discusión xa a tivemos antes."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "nihil obstat",
+  "meaning": "Nada se opón; autorización ou visto e prace.",
+  "examples": [
+   "O proxecto recibiu o nihil obstat da dirección.",
+   "Deu o nihil obstat para que continuase o traballo."
+  ],
+  "pressLinks": [
+   {
+    "title": "\"Nihil obstat\" a la causa de canonización de la adolescente filipina Niña Ruiz-Abad",
+    "url": "https://www.religiondigital.org/mundo/Nihil-canonizacion-adolescente-Nina-Ruiz-Abad_0_2652034782.html",
+    "source": "Religión Digital",
+    "date": "2024-03-16"
+   }
+  ]
+ },
+ {
+  "term": "noli me tangere!",
+  "meaning": "Non me toques! (palabras de Xesús resucitado a María Magdalena).",
+  "examples": [
+   "O cadro representa a escena do noli me tangere.",
+   "Puxo un cartel de noli me tangere sobre a peza antiga."
+  ],
+  "pressLinks": [
+   {
+    "title": "Noli me tangere",
+    "url": "https://letralia.com/articulos-y-reportajes/2020/08/06/noli-me-tangere/",
+    "source": "Letralia",
+    "date": "2020-08-06"
+   }
+  ]
+ },
+ {
+  "term": "non plus ultra",
+  "meaning": "Non máis alá; o máximo, o mellor posible.",
+  "examples": [
+   "Consideraban aquel restaurante o non plus ultra da cociña local.",
+   "Para el, ese coche era o non plus ultra."
+  ],
+  "pressLinks": [
+   {
+    "title": "Non plus ultra",
+    "url": "https://www.laregion.es/opinion/non-plus-ultra_1_20251226-4106100.html",
+    "source": "La Región",
+    "date": "2025-12-26"
+   }
+  ]
+ },
+ {
+  "term": "nosce te ipsum!",
+  "meaning": "Coñécete a ti mesmo! (inscrición do templo de Delfos).",
+  "examples": [
+   "O nosce te ipsum foi un dos lemas centrais da filosofía socrática.",
+   "Recomendoulle reflexionar seguindo o nosce te ipsum."
+  ],
+  "pressLinks": [
+   {
+    "title": "Nosce Te Ipsum: Membrum Fantasma",
+    "url": "https://www.arteinformado.com/agenda/f/nosce-te-ipsum-membrum-fantasma-236904",
+    "source": "ARTEINFORMADO",
+    "date": "2025-04-09"
+   }
+  ]
+ },
+ {
+  "term": "nota bene",
+  "meaning": "Nota ben; obsérvese, téñase en conta (orixe da abreviatura «N.B.»).",
+  "examples": [
+   "Ao final do documento engadiu un nota bene coa excepción.",
+   "Nota bene: o prazo remata o venres, non o luns."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "numerus clausus",
+  "meaning": "Número pechado; límite de prazas nunha carreira ou proceso de selección.",
+  "examples": [
+   "Medicina ten numerus clausus na maioría das universidades.",
+   "O numerus clausus limita o acceso a certos graos."
+  ],
+  "pressLinks": [
+   {
+    "title": "Los 'numerus clausus', continúan enfrentados con la capacidad del Sistema Nacional de Salud",
+    "url": "https://www.consalud.es/profesionales/medicina/los-numerus-clausus-continuan-enfrentados-con-la-capacidad-del-sistema-nacional-de-salud.html",
+    "source": "ConSalud.es",
+    "date": "2018-07-06"
+   }
+  ]
+ },
+ {
+  "term": "nunc et semper",
+  "meaning": "Agora e sempre.",
+  "examples": [
+   "Prometeu quererse nunc et semper.",
+   "O lema da familia é nunc et semper fideles."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "o tempora!, o mores!",
+  "meaning": "Que tempos!, que costumes! (Cicerón, contra Catilina); queixa sobre a decadencia dos costumes.",
+  "examples": [
+   "Ao ver as noticias, exclamou: o tempora, o mores!",
+   "Cicerón usou o famoso o tempora, o mores! contra Catilina."
+  ],
+  "pressLinks": [
+   {
+    "title": "Oh tempora, oh mores!",
+    "url": "https://salamancartvaldia.es/not/262038/oh-tempora-oh-mores",
+    "source": "Salamancartv Al Día",
+    "date": "2021-03-30"
+   }
+  ]
+ },
+ {
+  "term": "opere citato",
+  "meaning": "Na obra citada; remite a unha obra xa mencionada antes (abreviatura «op. cit.»).",
+  "examples": [
+   "Na bibliografía puxo «García, opere citato, p. 12».",
+   "Cando se repite unha fonte, pode escribirse opere citato."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "panem et circenses",
+  "meaning": "Pan e circo (Xuvenal); críticas a manter a poboación satisfeita con lecer e comida en lugar de dereitos reais.",
+  "examples": [
+   "Acusou ao goberno de aplicar unha política de panem et circenses.",
+   "Panem et circenses segue a ser unha expresión moi usada en política."
+  ],
+  "pressLinks": [
+   {
+    "title": "Ribadeo: panem et circenses",
+    "url": "https://praza.gal/opinion/ribadeo-panem-et-circenses",
+    "source": "Praza Pública"
+   }
+  ]
+ },
+ {
+  "term": "peccata minuta",
+  "meaning": "Pecados pequenos; erros ou faltas sen importancia.",
+  "examples": [
+   "Chegar cinco minutos tarde é peccata minuta.",
+   "Comparado co problema real, iso é peccata minuta."
+  ],
+  "pressLinks": [
+   {
+    "title": "Los saldos de una tragedia",
+    "url": "https://vanguardia.com.mx/opinion/politicon/los-saldos-de-una-tragedia-ICVG3292684",
+    "source": "Vanguardia (México)",
+    "date": "2017-03-12"
+   }
+  ]
+ },
+ {
+  "term": "per accidens",
+  "meaning": "Por accidente, de forma casual (fronte a «per se»).",
+  "examples": [
+   "Descubriuno per accidens, sen buscalo.",
+   "Aquilo ocorreu per accidens, non foi planeado."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "per capita",
+  "meaning": "Por cabeza; dividido entre o número de persoas.",
+  "examples": [
+   "A renda per capita subiu este ano.",
+   "Compararon o gasto en sanidade per capita entre países."
+  ],
+  "pressLinks": [
+   {
+    "title": "España es donde menos crece la renta per cápita de los hogares de toda la UE",
+    "url": "https://www.lavanguardia.com/economia/20251126/11302330/renta-per-capita-espana-ue.html",
+    "source": "La Vanguardia",
+    "date": "2025-11-26"
+   }
+  ]
+ },
+ {
+  "term": "per se",
+  "meaning": "Por si mesmo, en si mesmo.",
+  "examples": [
+   "Iso non é malo per se, depende do uso que se lle dea.",
+   "O problema non é a tecnoloxía per se, senón o mal uso dela."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "post data",
+  "meaning": "Despois do dado; nota engadida ao final dunha carta (orixe de «P.D.»).",
+  "examples": [
+   "Engadiu unha post data coa data da próxima reunión.",
+   "Ao final da carta puxo unha post data cariñosa."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "post mortem",
+  "meaning": "Despois da morte.",
+  "examples": [
+   "Realizouse unha autopsia post mortem para determinar a causa.",
+   "O recoñecemento chegou post mortem, xa falecido o autor."
+  ],
+  "pressLinks": [
+   {
+    "title": "En Galicia ha habido casos de inseminación «post mortem», pero son excepcionales",
+    "url": "https://www.lavozdegalicia.es/noticia/sociedad/2023/04/06/galicia-casos-inseminacion-post-mortem-excepcionales/0003_202304G6P2_COPY994.htm",
+    "source": "La Voz de Galicia",
+    "date": "2023-04-06"
+   }
+  ]
+ },
+ {
+  "term": "primum vivere, deinde philosophare",
+  "meaning": "Primeiro vivir, despois filosofar; hai que resolver as necesidades básicas antes de dedicarse a outras cousas.",
+  "examples": [
+   "Cando lle faltaba o traballo, pensou: primum vivere, deinde philosophare.",
+   "A frase primum vivere, deinde philosophare resume ben as súas prioridades daquel momento."
+  ],
+  "pressLinks": [
+   {
+    "title": "Primum vivere, deinde philosophare",
+    "url": "https://www.deia.eus/opinion/2012/10/01/primum-vivere-deinde-philosophare-5402881.html",
+    "source": "Deia",
+    "date": "2012-10-01"
+   }
+  ]
+ },
+ {
+  "term": "primus inter pares",
+  "meaning": "Primeiro entre iguais; quen destaca dentro dun grupo de iguais sen ter máis autoridade formal.",
+  "examples": [
+   "O portavoz actúa como primus inter pares dentro do grupo.",
+   "Considérase a si mesmo un primus inter pares, non un xefe."
+  ],
+  "pressLinks": [
+   {
+    "title": "Huenchumilla (DC) insta al PS a liderar la oposición: \"Puede jugar un rol de primus inter pares\"",
+    "url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/08/huenchumilla-dc-insta-al-ps-a-liderar-la-oposicion-puede-jugar-un-rol-de-primus-inter-pares.shtml",
+    "source": "BioBioChile",
+    "date": "2026-07-08"
+   }
+  ]
+ },
+ {
+  "term": "pro indiviso",
+  "meaning": "Sen dividir; propiedade compartida sen repartir en partes.",
+  "examples": [
+   "Os irmáns herdaron a casa pro indiviso.",
+   "A finca está en réxime pro indiviso entre varios propietarios."
+  ],
+  "pressLinks": [
+   {
+    "title": "Reclamación de gastos de comunidad en casos de inmuebles en pro indiviso",
+    "url": "https://www.legaltoday.com/practica-juridica/derecho-civil/civil/reclamacion-de-gastos-de-comunidad-en-casos-de-inmuebles-en-pro-indiviso-2014-06-05/",
+    "source": "Legaltoday",
+    "date": "2014-06-05"
+   }
+  ]
+ },
+ {
+  "term": "quod natura non dat Salmantica non praestat",
+  "meaning": "O que a natureza non dá, Salamanca non o presta; ningún estudo suple o talento natural.",
+  "examples": [
+   "Por moito que estudase, seguía sen ter oído musical: quod natura non dat Salmantica non praestat.",
+   "O profesor citou quod natura non dat Salmantica non praestat sobre o talento innato."
+  ],
+  "pressLinks": [
+   {
+    "title": "Quod natura non dat, Salmantica non praestat",
+    "url": "https://www.elplural.com/politica/quod-natura-non-dat-salmantica-non-praestat_40442102",
+    "source": "El Plural",
+    "date": "2014-05-16"
+   }
+  ]
+ },
+ {
+  "term": "quorum",
+  "meaning": "Número mínimo de persoas necesario para que unha reunión sexa válida.",
+  "examples": [
+   "Non houbo quorum suficiente para votar a moción.",
+   "Precísase un quorum de dous tercios para aprobar a reforma."
+  ],
+  "pressLinks": [
+   {
+    "title": "Galicia y otras CCAA del PP plantan a Rego en la sectorial, que no se puede celebrar por falta de \"quórum\"",
+    "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-04-08/5836474-galicia-otras-ccaa-pp-plantan-rego-sectorial-no-puede-celebrar-falta-quorum",
+    "source": "Galicia Press",
+    "date": "2026-04-08"
+   }
+  ]
+ },
+ {
+  "term": "rara avis",
+  "meaning": "Ave rara; persoa ou cousa pouco habitual, excepcional.",
+  "examples": [
+   "É unha rara avis no seu sector, moi distinto aos demais.",
+   "Ese talento é unha auténtica rara avis."
+  ],
+  "pressLinks": [
+   {
+    "title": "\"El político corrupto es una 'rara avis'; se desconfía de él porque se ignora su actividad\"",
+    "url": "https://www.farodevigo.es/gran-vigo/2024/06/28/juan-carlos-aladro-consello-contas-politico-corrupto-rara-avis-104411572.html",
+    "source": "Faro de Vigo",
+    "date": "2024-06-28"
+   }
+  ]
+ },
+ {
+  "term": "referendum",
+  "meaning": "O que hai que consultar; votación popular sobre unha cuestión concreta.",
+  "examples": [
+   "Convocouse un referendum sobre a independencia.",
+   "O resultado do referendum foi moi axustado."
+  ],
+  "pressLinks": [
+   {
+    "title": "Referéndum sobre Trump: la carrera para las elecciones de medio mandato de EE UU",
+    "url": "https://elpais.com/us/2026-09-09/referendum-sobre-trump-las-midterms-de-ee-uu-entran-en-su-fase-decisiva.html",
+    "source": "El País",
+    "date": "2026-09-09"
+   }
+  ]
+ },
+ {
+  "term": "requiescat in pace (R.I.P.)",
+  "meaning": "Que descanse en paz; fórmula funeraria (orixe do «R.I.P.»).",
+  "examples": [
+   "Na lápida gravaron requiescat in pace.",
+   "Despedírono cun sinxelo R.I.P. na esquela."
+  ],
+  "pressLinks": [
+   {
+    "title": "Requiescat in pace Alasdair MacIntyre, el filósofo católico total",
+    "url": "https://www.libertaddigital.com/cultura/2025-05-26/santiago-navajas-requiescat-in-pace-alasdair-macintyre-el-filosofo-catolico-total-7258382/",
+    "source": "Libertad Digital",
+    "date": "2025-05-26"
+   }
+  ]
+ },
+ {
+  "term": "Senatus Populusque Romanus (S.P.Q.R.)",
+  "meaning": "O Senado e o Pobo Romano; lema oficial da República e o Imperio romano.",
+  "examples": [
+   "As siglas S.P.Q.R. aínda aparecen en Roma hoxe en día.",
+   "O estandarte levaba as letras S.P.Q.R."
+  ],
+  "pressLinks": [
+   {
+    "title": "Qué significa SPQR y por qué aparece en las cofradías de Semana Santa",
+    "url": "https://www.eldebate.com/religion/20260401/significa-spqr-aparece-cofradias-semana-santa-cns_401796.html",
+    "source": "El Debate",
+    "date": "2026-04-01"
+   }
+  ]
+ },
+ {
+  "term": "si vis pacem, para bellum",
+  "meaning": "Se queres a paz, prepara a guerra.",
+  "examples": [
+   "Xustificou o gasto militar co principio si vis pacem, para bellum.",
+   "Si vis pacem, para bellum segue a citarse en debates de defensa."
+  ],
+  "pressLinks": [
+   {
+    "title": "Si vis pacem para bellum",
+    "url": "https://www.infodefensa.com/texto-diario/mostrar/3118249/vis-pacem-bellum",
+    "source": "Infodefensa.com",
+    "date": "2017-12-05"
+   }
+  ]
+ },
+ {
+  "term": "sic transit gloria mundi",
+  "meaning": "Así pasa a gloria do mundo; reflexión sobre o carácter efémero da fama e o poder.",
+  "examples": [
+   "Ao ver caer aquel imperio, pensou: sic transit gloria mundi.",
+   "Sic transit gloria mundi resume a caída daquel gran líder."
+  ],
+  "pressLinks": [
+   {
+    "title": "Sic transit gloria mundi",
+    "url": "https://www.nuevatribuna.es/opinion/jesus-parra-montero/sic-transit-gloria-mundi/20171127090347145732.html",
+    "source": "Nueva Tribuna",
+    "date": "2017-11-27"
+   }
+  ]
+ },
+ {
+  "term": "sine cura",
+  "meaning": "Sen coidado/carga; cargo cómodo con poucas responsabilidades (orixe de «sinecura»).",
+  "examples": [
+   "Aquel posto era case unha sine cura, con case ningunha responsabilidade.",
+   "Denunciaron que o cargo era unha sine cura pagada polo Estado."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "sine die",
+  "meaning": "Sen día fixado; aprazado sen data concreta.",
+  "examples": [
+   "A reunión quedou aprazada sine die.",
+   "Suspenderon o proxecto sine die por falta de fondos."
+  ],
+  "pressLinks": [
+   {
+    "title": "¿Qué significa llamar a consultas 'sine die' a una embajada como ha hecho Albares con la de Argentina?",
+    "url": "https://www.eldebate.com/españa/20240520/significa-llamar-consultas-sine-die-embajada-como-hecho-albares-argentina-cns_198309.html",
+    "source": "El Debate",
+    "date": "2024-05-20"
+   }
+  ]
+ },
+ {
+  "term": "sit tibi terra levis",
+  "meaning": "Que a terra che sexa leve; fórmula funeraria (moi usada en lápidas romanas).",
+  "examples": [
+   "Gravaron na lápida a fórmula sit tibi terra levis.",
+   "Despediuse del cun sit tibi terra levis."
+  ],
+  "pressLinks": [
+   {
+    "title": "La extraña esquela de la madre de Franco",
+    "url": "https://digitalextremadura.com/P55894/",
+    "source": "Digital Extremadura",
+    "date": "2014-07-09"
+   }
+  ]
+ },
+ {
+  "term": "sponte sua",
+  "meaning": "Por vontade propia, espontaneamente.",
+  "examples": [
+   "Presentouse sponte sua sen que ninguén llo pedise.",
+   "Achegouse a axudar sponte sua."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "statu quo",
+  "meaning": "Estado no que; situación actual, sen cambios.",
+  "examples": [
+   "Prefiren manter o statu quo antes que arriscar cambios.",
+   "O acordo rompeu o statu quo anterior."
+  ],
+  "pressLinks": [
+   {
+    "title": "El 'statu quo', no el 'status quo'",
+    "url": "https://www.lavanguardia.com/cultura/20130521/54373726339/el-statu-quo-no-el-status-quo.html",
+    "source": "La Vanguardia",
+    "date": "2013-05-21"
+   }
+  ]
+ },
+ {
+  "term": "stricto sensu",
+  "meaning": "En sentido estrito.",
+  "examples": [
+   "Stricto sensu, iso non se pode considerar unha obra clásica.",
+   "Empregou o termo «poema» stricto sensu, só para versos."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "sub iudice",
+  "meaning": "Baixo o xuíz; asunto que aínda está a ser xulgado, pendente de resolución.",
+  "examples": [
+   "O caso segue sub iudice, así que non se pode comentar.",
+   "Non pode opinar porque o tema está sub iudice."
+  ],
+  "pressLinks": [
+   {
+    "title": "La Comisión Europea dejó \"muy claro\" a la Xunta que no puede pronunciarse sobre eólicos al estar 'sub iudice' en el TJUE",
+    "url": "https://www.galiciapress.es/articulo/ultima-hora/2025-01-15/5139043-comision-europea-dejo-muy-claro-xunta-no-puede-pronunciarse-sobre-eolicos-estar-sub-iudice-tjue",
+    "source": "Galicia Press",
+    "date": "2025-01-15"
+   }
+  ]
+ },
+ {
+  "term": "sui generis",
+  "meaning": "Do seu propio xénero; particular, singular, difícil de clasificar.",
+  "examples": [
+   "Ten un estilo sui generis, moi persoal.",
+   "É unha situación sui generis, non se parece a ningunha outra."
+  ],
+  "pressLinks": [
+   {
+    "title": "Paraguay, un caso sui generis",
+    "url": "https://www.cronista.com/we/paraguay-un-caso-sui-generis/",
+    "source": "El Cronista",
+    "date": "2012-06-29"
+   }
+  ]
+ },
+ {
+  "term": "summum ius, summa iniuria",
+  "meaning": "O máximo dereito, a máxima inxustiza; unha aplicación demasiado ríxida da lei pode resultar inxusta.",
+  "examples": [
+   "O avogado alegou summum ius, summa iniuria para pedir clemencia.",
+   "A frase summum ius, summa iniuria advirte dos perigos do formalismo legal."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "superavit",
+  "meaning": "Sobrou; excedente económico, cando os ingresos superan os gastos.",
+  "examples": [
+   "As contas pecharon con superavit este ano.",
+   "O concello logrou un pequeno superavit no orzamento."
+  ],
+  "pressLinks": [
+   {
+    "title": "Galicia cerró el 2024 con un superávit de 202 millones de euros, un 0,25 % de su PIB",
+    "url": "https://www.lavozdegalicia.es/noticia/galicia/2025/03/27/galicia-cerro-2024-superavit-202-millones-euros-equivale-025-pib/00031743093387608355312.htm",
+    "source": "La Voz de Galicia",
+    "date": "2025-03-27"
+   }
+  ]
+ },
+ {
+  "term": "suum cuique (tribuere)",
+  "meaning": "A cada un o seu; principio de xustiza distributiva.",
+  "examples": [
+   "O reparto fíxose seguindo o principio de suum cuique.",
+   "Suum cuique tribuere é un dos piares clásicos da xustiza."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "tamquam tabula rasa",
+  "meaning": "Coma unha táboa rasa; sen coñecementos previos, como unha folla en branco.",
+  "examples": [
+   "Chegou ao curso tamquam tabula rasa, sen saber nada do tema.",
+   "Trataron o proxecto tamquam tabula rasa, sen partir de nada anterior."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "tempus fugit",
+  "meaning": "O tempo foxe, o tempo pasa voando.",
+  "examples": [
+   "Mirou o reloxo e pensou: tempus fugit.",
+   "Tempus fugit, xa pasaron dez anos desde aquilo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "totum revolutum",
+  "meaning": "Todo mesturado, desorde xeral.",
+  "examples": [
+   "O caixón era un totum revolutum de papeis e cables.",
+   "A reunión acabou nun totum revolutum de temas sen resolver."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "tu quoque, fili mi!",
+  "meaning": "Ti tamén, fillo meu! (atribuído a César ao ver a Bruto entre os conspiradores).",
+  "examples": [
+   "Ao ver que o traizoaba o seu mellor amigo, exclamou: tu quoque, fili mi!",
+   "A frase tu quoque, fili mi! simboliza a traizón dun ser próximo."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ultimatum",
+  "meaning": "O último (aviso); esixencia final antes de tomar unha medida drástica.",
+  "examples": [
+   "Deulle un ultimatum: ou cambiaba de actitude ou marchaba.",
+   "O país recibiu un ultimatum diplomático."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "urbi et orbi",
+  "meaning": "Á cidade (Roma) e ao mundo; bendición papal dirixida a todo o mundo.",
+  "examples": [
+   "O papa deu a bendición urbi et orbi desde o balcón.",
+   "A mensaxe de Nadal transmitiuse urbi et orbi."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ut infra",
+  "meaning": "Como abaixo; remite a algo que se explica máis adiante nun texto.",
+  "examples": [
+   "Consulte a táboa, ut infra, para máis detalles.",
+   "A definición completa aparece ut infra."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "ut supra",
+  "meaning": "Como arriba; remite a algo xa dito antes nun texto.",
+  "examples": [
+   "Como se explicou ut supra, o prazo remata o venres.",
+   "Repítese a condición xa mencionada ut supra."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "veni, vidi, vici",
+  "meaning": "Vin, vin, vencín (César); expresión dunha vitoria rápida e contundente.",
+  "examples": [
+   "Resolveu o problema en minutos: veni, vidi, vici.",
+   "A frase veni, vidi, vici resume a rapidez daquela campaña militar."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "verba volant, scripta manent",
+  "meaning": "As palabras voan, o escrito permanece.",
+  "examples": [
+   "Pediulle que llo puxese por escrito: verba volant, scripta manent.",
+   "Verba volant, scripta manent, por iso é mellor deixar constancia por escrito."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "verbi gratia",
+  "meaning": "Por exemplo (equivalente a exempli gratia).",
+  "examples": [
+   "Hai varios idiomas cooficiais en España, verbi gratia, o galego.",
+   "Cómpre poñer exemplos concretos, verbi gratia, casos reais."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "vice versa",
+  "meaning": "Ao revés, á inversa.",
+  "examples": [
+   "El axuda a ela e vice versa.",
+   "Pode ir de galego a castelán e vice versa."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "viva voce",
+  "meaning": "En voz viva; oralmente, en persoa (fronte a por escrito).",
+  "examples": [
+   "Prefire explicalo viva voce en vez de por correo.",
+   "O exame tivo unha parte viva voce ante o tribunal."
+  ],
+  "pressLinks": []
+ },
+ {
+  "term": "vox populi",
+  "meaning": "Voz do pobo; opinión xeneralizada, rumor moi estendido.",
+  "examples": [
+   "Xa é vox populi que van pechar a fábrica.",
+   "É vox populi que se van casar en primavera."
+  ],
+  "pressLinks": []
+ }
+]

@@ -1,0 +1,76 @@
+---
+layout: base.njk
+subject: greek
+pagination:
+  data: greekTexts
+  size: 1
+  alias: text
+permalink: "/grego/textos/{{ text.slug }}/index.html"
+eleventyComputed:
+  title: "{{ text.title }}"
+  description: "Texto de {{ text.author }} ({{ text.ref }}) para a PAU de Grego: orixinal, vocabulario e tradución."
+---
+<div class="text-detail">
+  <p class="breadcrumb"><a href="/grego/">Grego</a> / <a href="/grego/textos/">Textos</a> / {{ text.author }}</p>
+  <div class="meta">
+    <span class="pill subject-pill">{{ text.author }}</span>
+    <span class="pill">{{ text.ref }}</span>
+  </div>
+  <h1>{{ text.title }}</h1>
+  <p class="work-line">{{ text.work }}</p>
+
+  <div class="glass-card text-panel">
+    <h2>Texto orixinal</h2>
+    <div class="original-text greek-font">{{ text.text }}</div>
+  </div>
+
+  {% if text.notes and text.notes.length %}
+  <div class="glass-card text-panel">
+    <h2>Vocabulario e notas</h2>
+    <ul class="vocab-list">
+      {% for n in text.notes %}<li>{{ n }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="toggle-row">
+    <button class="btn btn-outline btn-small" id="toggleTranslation">Amosar tradución</button>
+  </div>
+
+  <div class="glass-card text-panel" id="translationPanel" hidden>
+    <h2>Tradución</h2>
+    <div class="translation-text">{{ text.translation }}</div>
+  </div>
+
+  {% if text.preguntas and text.preguntas.length %}
+  <div class="glass-card text-panel">
+    <h2>Preguntas de comprensión predefinidas
+      {% if text.fonte == "real" %}<span class="pill" style="background:rgba(20,140,90,.12);color:#0e7a52">★ reais, exame {{ text.fonteAno }} ({{ text.fonteConvocatoria }})</span>{% else %}<span class="pill">proposta editable</span>{% endif %}
+    </h2>
+    {% if text.contexto %}<p class="text-question-context"><strong>Contexto:</strong> {{ text.contexto }}</p>{% endif %}
+    {% if text.enunciado %}<p class="text-question-context">{{ text.enunciado }}</p>{% endif %}
+    <ol class="text-question-list greek-font">
+      {% for q in text.preguntas %}<li>{{ q }}</li>{% endfor %}
+    </ol>
+    <p style="margin:10px 0 0"><a class="btn btn-greek btn-small" href="/creador/">Usar este texto no creador de exames →</a></p>
+  </div>
+  {% endif %}
+
+  <div class="text-nav">
+    {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Texto anterior</a>{% else %}<span></span>{% endif %}
+    <a href="/grego/textos/">Todos os textos</a>
+    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Seguinte texto →</a>{% else %}<span></span>{% endif %}
+  </div>
+</div>
+
+<script>
+(function(){
+  var btn = document.getElementById('toggleTranslation');
+  var panel = document.getElementById('translationPanel');
+  btn.addEventListener('click', function(){
+    var hidden = panel.hasAttribute('hidden');
+    if (hidden) { panel.removeAttribute('hidden'); btn.textContent = 'Ocultar tradución'; }
+    else { panel.setAttribute('hidden',''); btn.textContent = 'Amosar tradución'; }
+  });
+})();
+</script>

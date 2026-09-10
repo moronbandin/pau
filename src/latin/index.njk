@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Latín
+subject: latin
+description: Visión xeral da materia de Latín para a PAU — textos, latinismos, literatura e exames.
+---
+{% from "icons.njk" import icon %}
+{% from "examStructure.njk" import render as renderExamStructure %}
+<div class="section-head">
+  <div class="wrap">
+    <p class="eyebrow">Latín · PAU</p>
+    <h1>Latín</h1>
+    <p>Selección de textos de Eutropio e Fedro, banco de latinismos e prefixos, temas de literatura e o arquivo de exames oficiais.</p>
+  </div>
+</div>
+<div class="section-body">
+  <div class="wrap">
+    <div class="feature-row">
+      <a class="glass-card feature" href="/latin/textos/">
+        <span class="icon-badge">{{ icon("book") }}</span>
+        <h3>Textos por autor</h3>
+        <p>{{ latinTexts.length }} textos de Eutropio (Breviarium) e Fedro (Fabulae), cada un coa súa tradución completa.</p>
+      </a>
+      <a class="glass-card feature" href="/latin/expresions/">
+        <span class="icon-badge">{{ icon("tag") }}</span>
+        <h3>Latinismos e prefixos</h3>
+        <p>{{ latinExpressions.length }} expresións e locucións latinas de uso corrente, con buscador.</p>
+      </a>
+      <a class="glass-card feature" href="/latin/literatura/">
+        <span class="icon-badge">{{ icon("doc") }}</span>
+        <h3>Literatura</h3>
+        <p>Temas descargables e preguntas típicas: teatro, oratoria, historiografía, épica e lírica.</p>
+      </a>
+      <a class="glass-card feature" href="/latin/exames/">
+        <span class="icon-badge">{{ icon("archive") }}</span>
+        <h3>Exames por ano</h3>
+        <p>Arquivo de exames oficiais reais da PAU, organizados por convocatoria.</p>
+      </a>
+      <a class="glass-card feature" href="/creador/">
+        <span class="icon-badge">{{ icon("spark") }}</span>
+        <h3>Creador de exames</h3>
+        <p>Xera un exame de Latín completo seleccionando ou aleatorizando os seus contidos.</p>
+      </a>
+    </div>
+    {{ renderExamStructure(examStructure.latin, "/latin/") }}
+  </div>
+</div>
