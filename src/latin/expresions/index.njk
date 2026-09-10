@@ -28,29 +28,46 @@ description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de
       {% set pressCount = 0 %}
       {% for d in latinismosDetail %}{% if d.pressLinks and d.pressLinks.length %}{% set pressCount = pressCount + 1 %}{% endif %}{% endfor %}
       <p style="color:var(--ink-faint);margin:0 0 16px;font-size:.8rem">{{ pressCount }} de {{ latinismosDetail.length }} latinismos teñen xa un artigo de prensa real verificado. Para os restantes aínda non se atopou ningún — nunca se inventa unha ligazón; a busca continúa.</p>
-      <div class="expr-grid" id="exprGrid">
-        {% for d in latinismosDetail %}
-        <details class="expr-item" data-term="{{ d.term | lower }}">
-          <summary class="expr-term">{{ d.term }}</summary>
-          <div class="expr-detail">
-            <p class="expr-meaning">{{ d.meaning }}</p>
-            {% if d.examples and d.examples.length %}
-            <p class="expr-detail-label">Exemplos de uso</p>
-            <ul class="expr-examples">
-              {% for ex in d.examples %}<li>{{ ex }}</li>{% endfor %}
-            </ul>
-            {% endif %}
-            <p class="expr-detail-label">Na prensa</p>
-            {% if d.pressLinks and d.pressLinks.length %}
-            <ul class="expr-press">
-              {% for p in d.pressLinks %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a> <span class="expr-press-source">— {{ p.source }}{% if p.date %}, {{ p.date }}{% endif %}</span></li>{% endfor %}
-            </ul>
-            {% else %}
-            <p class="expr-press-pending">Aínda non se atopou un artigo de prensa real verificado que use esta expresión.</p>
-            {% endif %}
-          </div>
-        </details>
-        {% endfor %}
+      <div class="expr-workspace" id="exprWorkspace">
+        <div class="expr-list" id="exprList" aria-label="Lista de latinismos">
+          <p class="expr-list-empty">Non hai resultados con esa busca.</p>
+          {% for d in latinismosDetail %}
+          <button class="expr-button {% if loop.first %}is-active{% endif %}" type="button" data-term="{{ d.term | lower }}" data-target="expr-{{ loop.index }}" aria-controls="expr-{{ loop.index }}" aria-selected="{% if loop.first %}true{% else %}false{% endif %}">
+            <span>{{ d.term }}</span>
+          </button>
+          {% endfor %}
+        </div>
+
+        <div class="expr-detail-shell" id="exprDetailShell">
+          {% for d in latinismosDetail %}
+          <article class="expr-panel {% if loop.first %}is-active{% endif %}" id="expr-{{ loop.index }}" tabindex="-1">
+            <div class="expr-panel-head">
+              <div>
+                <p class="expr-panel-kicker">Latinismo</p>
+                <h2>{{ d.term }}</h2>
+              </div>
+              <span class="expr-panel-count">{{ loop.index }} / {{ latinismosDetail.length }}</span>
+            </div>
+            <div class="expr-detail">
+              <p class="expr-meaning">{{ d.meaning }}</p>
+              {% if d.examples and d.examples.length %}
+              <p class="expr-detail-label">Exemplos de uso</p>
+              <ul class="expr-examples">
+                {% for ex in d.examples %}<li>{{ ex }}</li>{% endfor %}
+              </ul>
+              {% endif %}
+              <p class="expr-detail-label">Na prensa</p>
+              {% if d.pressLinks and d.pressLinks.length %}
+              <ul class="expr-press">
+                {% for p in d.pressLinks %}<li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a> <span class="expr-press-source">— {{ p.source }}{% if p.date %}, {{ p.date }}{% endif %}</span></li>{% endfor %}
+              </ul>
+              {% else %}
+              <p class="expr-press-pending">Aínda non se atopou un artigo de prensa real verificado que use esta expresión.</p>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
       </div>
     </div>
 
@@ -67,18 +84,45 @@ description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de
 <script>
 (function(){
   var input = document.getElementById('exprSearch');
-  var items = Array.prototype.slice.call(document.querySelectorAll('#exprGrid .expr-item'));
+  var list = document.getElementById('exprList');
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('#exprList .expr-button'));
+  var panels = Array.prototype.slice.call(document.querySelectorAll('.expr-panel'));
+  var detailShell = document.getElementById('exprDetailShell');
   var count = document.getElementById('exprCount');
+  function select(button, focusPanel){
+    buttons.forEach(function(btn){
+      var active = btn === button;
+      btn.classList.toggle('is-active', active);
+      btn.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    panels.forEach(function(panel){
+      panel.classList.toggle('is-active', panel.id === button.getAttribute('data-target'));
+    });
+    if (focusPanel && window.matchMedia('(max-width: 780px)').matches) {
+      detailShell.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
   function update(){
     var q = input.value.trim().toLowerCase();
     var shown = 0;
-    items.forEach(function(it){
-      var match = !q || it.getAttribute('data-term').indexOf(q) !== -1;
-      it.style.display = match ? '' : 'none';
-      if (match) shown++;
+    var firstVisible = null;
+    buttons.forEach(function(btn){
+      var match = !q || btn.getAttribute('data-term').indexOf(q) !== -1;
+      btn.hidden = !match;
+      if (match) {
+        shown++;
+        if (!firstVisible) firstVisible = btn;
+      }
     });
-    count.textContent = shown + ' / ' + items.length;
+    count.textContent = shown + ' / ' + buttons.length;
+    list.classList.toggle('is-empty', shown === 0);
+    if (firstVisible && !buttons.some(function(btn){ return btn.classList.contains('is-active') && !btn.hidden; })) {
+      select(firstVisible, false);
+    }
   }
+  buttons.forEach(function(btn){
+    btn.addEventListener('click', function(){ select(btn, true); });
+  });
   input.addEventListener('input', update);
   update();
 })();

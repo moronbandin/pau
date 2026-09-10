@@ -4,14 +4,30 @@ title: Literatura grega
 subject: greek
 description: Preguntas reais de literatura grega na PAU, extraídas dos exames oficiais 2010–2026, con métrica de frecuencia.
 ---
+{% from "icons.njk" import icon %}
 <div class="section-head">
   <div class="wrap">
     <p class="breadcrumb"><a href="/grego/">Grego</a> / Literatura</p>
     <p class="eyebrow">Grego</p>
     <h1>Literatura</h1>
-    <p>Preguntas reais de literatura, extraídas unha a unha dos exames oficiais da CIUG ({{ litQuestions.meta.coverage }}). A porcentaxe indica en cantas convocatorias reais (sobre {{ litQuestions.meta.totalSittings }}) apareceu ese autor/obra ou esa pregunta.</p>
-    <p class="lit-methodology">{{ litQuestions.meta.note }}</p>
-    <p class="lit-methodology">{{ litQuestions.meta.currentNote }}</p>
+    <p>Temas e preguntas reais de literatura grega na PAU, con frecuencia histórica e ligazón aos exames onde apareceron.</p>
+    <div class="lit-brief">
+      <div class="lit-brief-item">
+        <span class="lit-brief-label">Arquivo real</span>
+        <strong>{{ litQuestions.meta.coverage }}</strong>
+        <p>Preguntas extraídas dos PDFs oficiais da CIUG.</p>
+      </div>
+      <div class="lit-brief-item">
+        <span class="lit-brief-label">Frecuencia</span>
+        <strong>{{ litQuestions.meta.totalSittings }} convocatorias</strong>
+        <p>A porcentaxe indica en cantos exames apareceu cada tema ou formulación.</p>
+      </div>
+      <div class="lit-brief-item">
+        <span class="lit-brief-label">Curso actual</span>
+        <strong>Vixente ou histórico</strong>
+        <p>Os temas non vixentes quedan como referencia, separados dos actuais.</p>
+      </div>
+    </div>
   </div>
 </div>
 <div class="section-body">
@@ -20,7 +36,14 @@ description: Preguntas reais de literatura grega na PAU, extraídas dos exames o
       {% for genre in litQuestions.greek %}
       <div class="glass-card lit-genre {% if not genre.current %}lit-genre-legacy{% endif %}">
         <div class="lit-genre-head">
-          <h2>{{ genre.label }}</h2>
+          <div class="lit-genre-title">
+            <h2>{{ genre.label }}</h2>
+            {% if genre.notesFile %}
+            <a class="lit-topic-link" href="{{ genre.notesFile }}" target="_blank" rel="noopener">{{ icon("external") }}<span>Abrir apuntamentos</span></a>
+            {% else %}
+            <span class="lit-topic-pending">PDF pendente</span>
+            {% endif %}
+          </div>
           <div style="display:flex;align-items:center;gap:12px">
             {% if genre.current %}<span class="lit-current-badge">Vixente este curso</span>{% else %}<span class="lit-legacy-badge">Non vixente este curso</span>{% endif %}
             <div class="lit-typicality" title="Apareceu en {{ genre.sittingsCount }} de {{ litQuestions.meta.totalSittings }} convocatorias reais">

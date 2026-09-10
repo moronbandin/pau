@@ -25,6 +25,7 @@ Todo o contido vive en `src/_data/*.json`. Para engadir, corrixir ou ampliar:
 - **Latinismos**: `latinExpressions.json` (lista simple) e `latinPrefixExamples.json`.
 - **Helenismos**: `helenismos.json` — `{cat, term, base, meaning, examples}`.
 - **Preguntas de literatura**: `litQuestions.json`, agrupadas por `latin`/`greek` e xénero.
+  - Cada tema pode levar no futuro un PDF de apuntamentos engadindo `"notesFile": "/apuntamentos/latin/plauto.pdf"` (ou ruta equivalente dentro de `public/`). Se non existe, a interface márcao como pendente.
 - **Exames por ano**: `examArchive.json`. Para engadir unha nova convocatoria:
 
   ```json
