@@ -1,7 +1,8 @@
 {
   "latin": {
-    "title": "Resumo PAU 2026 — Latín II",
-    "intro": "Para as PAU 2026 mantéñense os contidos, o modelo de exame e os criterios de valoración do ano anterior. A proba terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "title": "Resumo PAU 2027 — Latín II",
+    "intro": "Para as PAU 2027 mantéñense os contidos, o modelo de exame e os criterios de valoración do curso anterior. A proba terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "modelPdf": { "url": "/modelos/latin-2027.pdf", "label": "Ver modelo de exame PAU 2027 (CIUG)" },
     "sections": [
       {
         "title": "Comprensión e interpretación de textos",
@@ -49,8 +50,9 @@
     "totalNote": "Repartición: texto/tradución ou comprensión 5 puntos + análise 1 punto + plurilingüismo 2 puntos + literatura 2 puntos = 10 puntos."
   },
   "greek": {
-    "title": "Resumo PAU 2026 — Grego II",
-    "intro": "Para as PAU 2026 mantéñense os contidos, o modelo de exame e os criterios de valoración do curso anterior. O exame terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "title": "Resumo PAU 2027 — Grego II",
+    "intro": "Para as PAU 2027 mantéñense os contidos, o modelo de exame e os criterios de valoración do curso anterior. O exame terá 4 preguntas obrigatorias, cun total de 10 puntos.",
+    "modelPdf": { "url": "/modelos/grego-2027.pdf", "label": "Ver modelo de exame PAU 2027 (CIUG)" },
     "sections": [
       {
         "title": "Comprensión e interpretación de textos",

@@ -1,3 +1,4 @@
+{% from "icons.njk" import icon %}
 {% macro render(struct, subjectPath) %}
 <div class="glass-card exam-structure-card">
   <div class="exam-structure-head">
@@ -5,6 +6,9 @@
     <span class="exam-structure-total">10 puntos</span>
   </div>
   <p class="exam-structure-intro">{{ struct.intro }}</p>
+  {% if struct.modelPdf %}
+  <p class="exam-structure-model"><a class="btn btn-subject btn-small" href="{{ struct.modelPdf.url }}" target="_blank" rel="noopener">{{ icon("doc") }} {{ struct.modelPdf.label }}</a></p>
+  {% endif %}
   <div class="exam-structure-sections">
     {% for s in struct.sections %}
     <div class="exam-structure-section">
