@@ -24,23 +24,19 @@ description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de
         </div>
         <span class="result-count" id="exprCount"></span>
       </div>
-      <p style="color:var(--ink-soft);margin:0 0 6px;font-size:.88rem">Toca ou preme sobre un latinismo para ver o seu significado, exemplos de uso e, cando exista, un artigo de prensa real que o emprega.</p>
+      <p style="color:var(--ink-soft);margin:0 0 6px;font-size:.88rem">Escolle un latinismo da lista para ver o seu significado, exemplos de uso e, cando exista, un artigo de prensa real que o emprega.</p>
       {% set pressCount = 0 %}
       {% for d in latinismosDetail %}{% if d.pressLinks and d.pressLinks.length %}{% set pressCount = pressCount + 1 %}{% endif %}{% endfor %}
       <p style="color:var(--ink-faint);margin:0 0 16px;font-size:.8rem">{{ pressCount }} de {{ latinismosDetail.length }} latinismos teñen xa un artigo de prensa real verificado. Para os restantes aínda non se atopou ningún — nunca se inventa unha ligazón; a busca continúa.</p>
-      <div class="expr-workspace" id="exprWorkspace">
-        <div class="expr-list" id="exprList" aria-label="Lista de latinismos">
-          <p class="expr-list-empty">Non hai resultados con esa busca.</p>
-          {% for d in latinismosDetail %}
-          <button class="expr-button {% if loop.first %}is-active{% endif %}" type="button" data-term="{{ d.term | lower }}" data-target="expr-{{ loop.index }}" aria-controls="expr-{{ loop.index }}" aria-selected="{% if loop.first %}true{% else %}false{% endif %}">
-            <span>{{ d.term }}</span>
-          </button>
-          {% endfor %}
-        </div>
 
-        <div class="expr-detail-shell" id="exprDetailShell">
+      <div class="expr-workspace">
+        <div class="expr-list" id="exprList">
+          {% for d in latinismosDetail %}<button type="button" class="expr-button{% if loop.first %} is-active{% endif %}" data-term="{{ d.term | lower }}" data-idx="{{ loop.index0 }}">{{ d.term }}</button>{% endfor %}
+          <p class="expr-list-empty">Ningún latinismo coincide coa busca.</p>
+        </div>
+        <div class="expr-detail-shell">
           {% for d in latinismosDetail %}
-          <article class="expr-panel {% if loop.first %}is-active{% endif %}" id="expr-{{ loop.index }}" tabindex="-1">
+          <div class="expr-panel{% if loop.first %} is-active{% endif %}" data-idx="{{ loop.index0 }}">
             <div class="expr-panel-head">
               <div>
                 <p class="expr-panel-kicker">Latinismo</p>
@@ -65,7 +61,7 @@ description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de
               <p class="expr-press-pending">Aínda non se atopou un artigo de prensa real verificado que use esta expresión.</p>
               {% endif %}
             </div>
-          </article>
+          </div>
           {% endfor %}
         </div>
       </div>
@@ -85,44 +81,38 @@ description: Listaxe de latinismos, locucións e exemplos de prefixos/sufixos de
 (function(){
   var input = document.getElementById('exprSearch');
   var list = document.getElementById('exprList');
-  var buttons = Array.prototype.slice.call(document.querySelectorAll('#exprList .expr-button'));
+  var buttons = Array.prototype.slice.call(list.querySelectorAll('.expr-button'));
   var panels = Array.prototype.slice.call(document.querySelectorAll('.expr-panel'));
-  var detailShell = document.getElementById('exprDetailShell');
   var count = document.getElementById('exprCount');
-  function select(button, focusPanel){
-    buttons.forEach(function(btn){
-      var active = btn === button;
-      btn.classList.toggle('is-active', active);
-      btn.setAttribute('aria-selected', active ? 'true' : 'false');
-    });
-    panels.forEach(function(panel){
-      panel.classList.toggle('is-active', panel.id === button.getAttribute('data-target'));
-    });
-    if (focusPanel && window.matchMedia('(max-width: 780px)').matches) {
-      detailShell.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+
+  function selectIdx(idx){
+    buttons.forEach(function(b){ b.classList.toggle('is-active', b.getAttribute('data-idx') === idx); });
+    panels.forEach(function(p){ p.classList.toggle('is-active', p.getAttribute('data-idx') === idx); });
   }
+
+  buttons.forEach(function(btn){
+    btn.addEventListener('click', function(){ selectIdx(btn.getAttribute('data-idx')); });
+  });
+
   function update(){
     var q = input.value.trim().toLowerCase();
     var shown = 0;
-    var firstVisible = null;
-    buttons.forEach(function(btn){
-      var match = !q || btn.getAttribute('data-term').indexOf(q) !== -1;
-      btn.hidden = !match;
-      if (match) {
+    var activeStillVisible = false;
+    buttons.forEach(function(b){
+      var match = !q || b.getAttribute('data-term').indexOf(q) !== -1;
+      b.style.display = match ? '' : 'none';
+      if (match){
         shown++;
-        if (!firstVisible) firstVisible = btn;
+        if (b.classList.contains('is-active')) activeStillVisible = true;
       }
     });
-    count.textContent = shown + ' / ' + buttons.length;
     list.classList.toggle('is-empty', shown === 0);
-    if (firstVisible && !buttons.some(function(btn){ return btn.classList.contains('is-active') && !btn.hidden; })) {
-      select(firstVisible, false);
+    count.textContent = shown + ' / ' + buttons.length;
+    if (shown > 0 && !activeStillVisible){
+      var firstVisible = buttons.filter(function(b){ return b.style.display !== 'none'; })[0];
+      if (firstVisible) selectIdx(firstVisible.getAttribute('data-idx'));
     }
   }
-  buttons.forEach(function(btn){
-    btn.addEventListener('click', function(){ select(btn, true); });
-  });
   input.addEventListener('input', update);
   update();
 })();
