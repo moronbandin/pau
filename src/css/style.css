@@ -90,13 +90,8 @@ h1,h2,h3{letter-spacing:-.01em}
   overflow-y:auto;
 }
 .sidebar-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;padding:0 6px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.02rem;color:var(--ink)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.05rem;letter-spacing:-.005em;color:var(--ink)}
 .brand:hover{text-decoration:none}
-.brand-mark{
-  display:inline-flex;align-items:center;justify-content:center;
-  width:30px;height:30px;border-radius:9px;background:var(--ink);color:#fff;
-  font-size:.72rem;font-weight:800;letter-spacing:.02em;
-}
 .sidebar-close{display:none;background:none;border:0;color:var(--ink-soft);padding:6px;cursor:pointer}
 
 .side-nav{display:flex;flex-direction:column;gap:2px}
