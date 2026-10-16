@@ -5,6 +5,15 @@ subject: greek
 description: Textos de Xenofonte e Apolodoro para a PAU de Grego, con ficha individual, vocabulario e tradución.
 ---
 {% from "icons.njk" import icon %}
+{% set grammarTags = [
+  { key: "xenitivoAbsoluto", prop: "gXenitivoAbsoluto", short: "Xen. abs.", label: "Xenitivo absoluto", hint: "Substantivo + participio en xenitivo, sintacticamente independentes da oración principal (equivalente grego do ablativo absoluto latino)." },
+  { key: "participioPresente", prop: "gParticipioPresente", short: "Part. pres.", label: "Participio de presente", hint: "Participio de presente (aspecto durativo)." },
+  { key: "participioAoristo", prop: "gParticipioAoristo", short: "Part. aor.", label: "Participio de aoristo", hint: "Participio de aoristo (aspecto puntual). Non inclúe adxectivos verbais en -τος nin participios de futuro." },
+  { key: "infinitivo", prop: "gInfinitivo", short: "Infinitivo", label: "Infinitivo", hint: "Calquera infinitivo, incluídos os que dependen de dativo (tipo ἐπιτάσσω + dativo + infinitivo)." },
+  { key: "aci", prop: "gAci", short: "ACI", label: "ACI (acusativo + infinitivo)", hint: "Subordinada de infinitivo con suxeito en acusativo. Non inclúe as subordinadas finitas con ὅτι/ὡς nin as construcións de dativo + infinitivo." },
+  { key: "oracionsFinais", prop: "gOracionsFinais", short: "O. finais", label: "Oracións finais (ἵνα / ὅπως)", hint: "Oracións finais introducidas por ἵνα ou ὅπως, incluída a construción de esforzo ὅπως + futuro de indicativo." },
+  { key: "oracionsConsecutivas", prop: "gOracionsConsecutivas", short: "O. consec.", label: "Oracións consecutivas (ὥστε)", hint: "Oracións consecutivas introducidas por ὥστε, habitualmente coa correlación οὕτω(ς)...ὥστε." }
+] %}
 <div class="section-head">
   <div class="wrap">
     <p class="breadcrumb"><a href="/grego/">Grego</a> / Textos</p>
@@ -15,23 +24,57 @@ description: Textos de Xenofonte e Apolodoro para a PAU de Grego, con ficha indi
 </div>
 <div class="section-body">
   <div class="wrap">
-    {% set groups = greekTexts | groupByAuthor %}
-    {% for g in groups %}
-    <div class="author-block">
-      <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
-      <div class="text-grid">
-        {% for t in g.texts %}
-        <a class="text-card" href="/grego/textos/{{ t.slug }}/">
-          <span class="ref">{{ t.ref }}</span>
-          <span class="text-card-body">
-            <h3>{{ t.title }}</h3>
-            <p>{{ t.text | firstWords(10) }}</p>
-          </span>
-          {{ icon("chevron", "chevron-end") }}
-        </a>
+
+    <div class="glass-card grammar-filter" data-grammar-filter="#greekTextList" data-grammar-count="#greekGrammarCount" data-grammar-empty="#greekGrammarEmpty">
+      <div class="grammar-filter-head">
+        <div>
+          <h2>Filtrar por morfosintaxe</h2>
+          <p>Preme unha etiqueta para esixila (✓, debe ter esa característica) ou excluíla (✕, non debe tela); preme de novo para quitar o filtro. <span class="grammar-filter-count"><span id="greekGrammarCount">{{ greekTexts.length }}</span> de {{ greekTexts.length }}</span> textos.</p>
+        </div>
+        <button type="button" class="grammar-filter-reset btn btn-outline btn-small">Limpar filtros</button>
+      </div>
+      <div class="grammar-filter-grid">
+        {% for gt in grammarTags %}
+        <button type="button" class="grammar-chip" data-prop="{{ gt.prop }}" data-state="any" title="{{ gt.hint }}">{{ gt.label }}</button>
         {% endfor %}
       </div>
     </div>
-    {% endfor %}
+
+    <div id="greekTextList">
+      {% set groups = greekTexts | groupByAuthor %}
+      {% for g in groups %}
+      <div class="author-block">
+        <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
+        <div class="text-grid">
+          {% for t in g.texts %}
+          <a class="text-card" href="/grego/textos/{{ t.slug }}/"
+            data-g-xenitivo-absoluto="{{ t.grammar.xenitivoAbsoluto }}"
+            data-g-participio-presente="{{ t.grammar.participioPresente }}"
+            data-g-participio-aoristo="{{ t.grammar.participioAoristo }}"
+            data-g-infinitivo="{{ t.grammar.infinitivo }}"
+            data-g-aci="{{ t.grammar.aci }}"
+            data-g-oracions-finais="{{ t.grammar.oracionsFinais }}"
+            data-g-oracions-consecutivas="{{ t.grammar.oracionsConsecutivas }}">
+            <span class="ref">{{ t.ref }}</span>
+            <span class="text-card-body">
+              <h3>{{ t.title }}</h3>
+              <p>{{ t.text | firstWords(10) }}</p>
+              <span class="tag-badges">
+                {% for gt in grammarTags %}
+                {% if t.grammar[gt.key] %}
+                <span class="tag-badge" title="{{ gt.hint }}">{{ gt.short }}</span>
+                {% endif %}
+                {% endfor %}
+              </span>
+            </span>
+            {{ icon("chevron", "chevron-end") }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <p id="greekGrammarEmpty" class="grammar-filter-empty">Ningún texto cumpre esa combinación de filtros.</p>
+    </div>
   </div>
 </div>
+<script src="/js/grammarFilter.js"></script>

@@ -445,3 +445,39 @@ h1,h2,h3{letter-spacing:-.01em}
   .content-area{margin-left:0;padding-top:64px}
   body.nav-open{overflow:hidden}
 }
+
+/* Grammar tagging — filter panel (listing pages) and tag badges (detail + cards) */
+.grammar-filter{padding:22px 26px 24px;margin-top:18px}
+.grammar-filter-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.grammar-filter-head h2{margin:0 0 4px;font-size:1.02rem;font-weight:700}
+.grammar-filter-head p{margin:0;font-size:.82rem;color:var(--ink-soft);max-width:560px}
+.grammar-filter-count{font-weight:700;color:var(--subject-accent)}
+.grammar-filter-reset{flex:0 0 auto}
+.grammar-filter-grid{display:flex;flex-wrap:wrap;gap:8px}
+.grammar-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 14px;border-radius:999px;font-size:.82rem;font-weight:600;
+  background:var(--surface-solid);border:1px solid var(--border);color:var(--ink-soft);
+  cursor:pointer;transition:background .12s ease,color .12s ease,border-color .12s ease;
+}
+.grammar-chip:hover{border-color:var(--subject-accent)}
+.grammar-chip::before{content:"";width:14px;height:14px;border-radius:50%;border:1.5px solid var(--border);flex:0 0 auto;transition:background .12s ease,border-color .12s ease}
+.grammar-chip[data-state="include"]{background:var(--subject-accent);border-color:var(--subject-accent);color:#fff}
+.grammar-chip[data-state="include"]::before{content:"✓";font-size:.68rem;line-height:14px;text-align:center;background:#fff;border-color:#fff;color:var(--subject-accent)}
+.grammar-chip[data-state="exclude"]{background:#5c2330;border-color:#5c2330;color:#fff}
+.grammar-chip[data-state="exclude"]::before{content:"✕";font-size:.62rem;line-height:14px;text-align:center;background:#fff;border-color:#fff;color:#5c2330}
+.grammar-filter-empty{display:none;padding:28px 0;text-align:center;color:var(--ink-faint);font-size:.9rem}
+
+/* Small tag badges shown under each text-card in the listing */
+.tag-badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.tag-badge{
+  font-size:.66rem;font-weight:700;letter-spacing:.01em;
+  padding:2px 8px;border-radius:999px;
+  background:var(--subject-accent-soft);color:var(--subject-accent-ink,var(--subject-accent));
+  white-space:nowrap;
+}
+
+/* Tag panel on the text detail page */
+.grammar-tags-panel .tag-badges{margin-top:4px}
+.grammar-tags-panel .tag-badge{font-size:.76rem;padding:5px 12px;cursor:help}
+.grammar-tags-panel .tag-badge-none{background:transparent;color:var(--ink-faint);font-weight:500}

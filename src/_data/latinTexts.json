@@ -21,7 +21,21 @@
       "Cur Romulus vicinas nationes ad ludos invitavit?",
       "Quid Romulus et populus eius non habebant?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "Condita civitate",
+        "participioPerfecto": "condita",
+        "cumHistorico": "cum uxores ipse et populus suus non haberent"
+      }
+    }
   },
   {
     "id": "eutropio-1-3",
@@ -47,7 +61,19 @@
     ],
     "fonte": "real",
     "fonteAno": 2026,
-    "fonteConvocatoria": "extraordinaria"
+    "fonteConvocatoria": "extraordinaria",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPerfecto": "creatus est; confusum"
+      }
+    }
   },
   {
     "id": "eutropio-1-4",
@@ -72,7 +98,21 @@
       "Quomodo Tullus mortuus est?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "O rei Tulo Hostilio"
+    "tituloHistorico": "O rei Tulo Hostilio",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "adiecto Caelio monte",
+        "participioPerfecto": "adiecto; ictus",
+        "cumHistorico": "Cum... regnasset"
+      }
+    }
   },
   {
     "id": "eutropio-1-5",
@@ -96,7 +136,17 @@
       "Ubi Ancus civitatem condidit?",
       "Quo anno imperii Ancus periit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": false,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {}
+    }
   },
   {
     "id": "eutropio-1-6",
@@ -121,7 +171,20 @@
       "A quibus Tarquinius occisus est?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "O rei Tarquinio Prisco"
+    "tituloHistorico": "O rei Tarquinio Prisco",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPresente": "triumphans",
+        "participioPerfecto": "sublatum; occisus"
+      }
+    }
   },
   {
     "id": "eutropio-1-7",
@@ -145,7 +208,19 @@
       "A quibus Servius occisus est?",
       "Cuius filiam Tarquinius Superbus uxorem habebat?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPerfecto": "genitus; Occisus est"
+      }
+    }
   },
   {
     "id": "eutropio-2-5",
@@ -169,7 +244,21 @@
       "Quid Manlius Gallo occiso sustulit?",
       "Quod cognomen Manlius accepit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "sublato torque; collo... inposito",
+        "participioPresente": "provocantem",
+        "participioPerfecto": "missus; progressus"
+      }
+    }
   },
   {
     "id": "eutropio-2-21",
@@ -193,7 +282,22 @@
       "Quam civitatem Romani primam in deditionem acceperunt?",
       "Quid Carthaginienses tandem a Romanis petiverunt?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "perditis... navibus; multisque castellis vastatis",
+        "participioPresente": "dimicans",
+        "participioPerfecto": "translatum; victus; perditis; vastatis; victi",
+        "cumHistorico": "cum in Africam transissent"
+      }
+    }
   },
   {
     "id": "eutropio-3-14",
@@ -217,7 +321,20 @@
       "Quo metu Hannibal ad Campaniam se recepit?",
       "A quo Scipiones in Hispania interfecti sunt?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": false,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "P. Sulpicio Cn. Fulvio consulibus",
+        "participioPresente": "venientium"
+      }
+    }
   },
   {
     "id": "eutropio-3-15",
@@ -241,7 +358,20 @@
       "Quem fratrem Hannibalis Scipio cepit?",
       "Qualis fuit laetitia Romae post hunc nuntium?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "occisis duobus Scipionibus",
+        "participioPerfecto": "occisis; natus"
+      }
+    }
   },
   {
     "id": "eutropio-4-16",
@@ -265,7 +395,23 @@
       "Quid interfectores a Caepione consule petiverunt?",
       "Quid Caepio respondit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": true,
+      "cumHistorico": true,
+      "ut": true,
+      "evidence": {
+        "infinitivo": "placuisse; interfici",
+        "participioPerfecto": "missus; interfectus",
+        "aci": "responsum est... placuisse imperatores... interfici",
+        "cumHistorico": "cum... movisset; cum... peterent",
+        "ut": "ut adsertor... putaretur (consecutiva)"
+      }
+    }
   },
   {
     "id": "eutropio-6-12",
@@ -290,7 +436,21 @@
       "Quomodo Mithridates fugit?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Campaña contra os piratas"
+    "tituloHistorico": "Campaña contra os piratas",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": true,
+      "evidence": {
+        "ablativoAbsoluto": "Quo suscepto",
+        "participioPerfecto": "decretum; delatum",
+        "ut": "ita... ut... non esset (consecutiva)"
+      }
+    }
   },
   {
     "id": "eutropio-6-25",
@@ -316,7 +476,22 @@
     ],
     "fonte": "real",
     "fonteAno": 2025,
-    "fonteConvocatoria": "extraordinaria"
+    "fonteConvocatoria": "extraordinaria",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "bellis civilibus... conpositis",
+        "infinitivo": "coepit Agere",
+        "participioPerfecto": "conpositis; confossus",
+        "cumHistorico": "Cum... praestaret... faceret; cum... venisset"
+      }
+    }
   },
   {
     "id": "eutropio-7-8",
@@ -341,7 +516,20 @@
       "Ubi Augustus sepultus est?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Octaviano Augusto"
+    "tituloHistorico": "Octaviano Augusto",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "bellis toto orbe confectis",
+        "participioPerfecto": "confectis; sepultus"
+      }
+    }
   },
   {
     "id": "eutropio-7-12",
@@ -365,7 +553,20 @@
       "Quibus vitiis Caligula saeviebat?",
       "Quo anno aetatis suae Caligula interfectus est?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "participioPerfecto": "ingressus; interfectus",
+        "cumHistorico": "Cum... saeviret"
+      }
+    }
   },
   {
     "id": "eutropio-7-23",
@@ -390,7 +591,22 @@
       "Quomodo Domitianus interfectus est?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "O emperador Domiciano"
+    "tituloHistorico": "O emperador Domiciano",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": true,
+      "cumHistorico": false,
+      "ut": true,
+      "evidence": {
+        "infinitivo": "appellari; poni",
+        "participioPerfecto": "progressus; passus est",
+        "aci": "passus est [statuam] poni",
+        "ut": "tantum... ut... aboleret (consecutiva)"
+      }
+    }
   },
   {
     "id": "eutropio-8-2",
@@ -414,7 +630,20 @@
       "Quomodo Traianus rem publicam administravit?",
       "Quid Traianus imperii Romani finibus fecit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": true,
+      "evidence": {
+        "participioPerfecto": "natus; factus; defensum; ampliatum",
+        "ut": "ita... ut... praeferatur (consecutiva)"
+      }
+    }
   },
   {
     "id": "eutropio-8-18",
@@ -439,7 +668,17 @@
       "Fuitne alius imperator ex Africa ante Septimium?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "O emperador Septimio Severo"
+    "tituloHistorico": "O emperador Septimio Severo",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": false,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {}
+    }
   },
   {
     "id": "fedro-1-4",
@@ -463,7 +702,22 @@
       "Quid canis amisit?",
       "Potuitne canis alteram praedam adipisci?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": true,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPresente": "natans; putans",
+        "infinitivo": "ferri",
+        "participioPerfecto": "decepta",
+        "aci": "putans... ferri"
+      }
+    }
   },
   {
     "id": "fedro-1-5",
@@ -487,7 +741,21 @@
       "Cur leo primam partem sibi sumpsit?",
       "Quis totam praedam abstulit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": true,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "ablativoAbsoluto": "partibus factis",
+        "participioPerfecto": "factis; locutus",
+        "cumHistorico": "Hi cum cepissent cervum"
+      }
+    }
   },
   {
     "id": "fedro-1-10",
@@ -511,7 +779,21 @@
       "Quam sententiam simius dixit?",
       "Cur simius vulpi non credidit?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": true,
+      "participioPerfecto": false,
+      "aci": true,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "infinitivo": "esse; subripuisse",
+        "aci": "negabat illa se esse culpae proximam; te credo subripuisse",
+        "cumHistorico": "cum perorassent suam"
+      }
+    }
   },
   {
     "id": "fedro-2-7",
@@ -536,7 +818,21 @@
       "Cur alter mulus gaudebat?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Os dous mulos e as súas cargas"
+    "tituloHistorico": "Os dous mulos e as súas cargas",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": false,
+      "evidence": {
+        "participioPresente": "tumentes; eminens; iactans",
+        "participioPerfecto": "gravati; contemptum; laesus; Spoliatus",
+        "cumHistorico": "casus cum fleret suos"
+      }
+    }
   },
   {
     "id": "fedro-3-17",
@@ -561,7 +857,21 @@
       "Quam arborem Minerva sibi elegit?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "As árbores protexidas polos deuses."
+    "tituloHistorico": "As árbores protexidas polos deuses.",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": true,
+      "participioPerfecto": false,
+      "aci": true,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPresente": "admirans",
+        "infinitivo": "esse; vendere; dicere; agere",
+        "aci": "quas vellent esse (construción próxima á ACI)"
+      }
+    }
   },
   {
     "id": "fedro-4-3",
@@ -586,7 +896,22 @@
       "Quibus hoc exemplum applicandum est?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "A raposa e as uvas"
+    "tituloHistorico": "A raposa e as uvas",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": true,
+      "evidence": {
+        "participioPresente": "saliens; discedens",
+        "infinitivo": "tangere; sumere; facere; ascribere",
+        "participioPerfecto": "coacta",
+        "ut": "quam tangere ut non potuit (temporal)"
+      }
+    }
   },
   {
     "id": "fedro-4-10",
@@ -612,7 +937,20 @@
     ],
     "fonte": "real",
     "fonteAno": 2026,
-    "fonteConvocatoria": "ordinaria"
+    "fonteConvocatoria": "ordinaria",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "infinitivo": "videre",
+        "participioPerfecto": "repletam"
+      }
+    }
   },
   {
     "id": "fedro-4-20",
@@ -637,7 +975,23 @@
       "Quid haec fabella nos docet?"
     ],
     "fonte": "ia",
-    "tituloHistorico": "A serpe malvada"
+    "tituloHistorico": "A serpe malvada",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": true,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": true,
+      "ut": true,
+      "evidence": {
+        "participioPresente": "rigentem",
+        "infinitivo": "prodesse",
+        "participioPerfecto": "refecta",
+        "cumHistorico": "cum rogaret causam",
+        "ut": "namque ut refecta est (temporal)"
+      }
+    }
   },
   {
     "id": "fedro-5-6",
@@ -661,7 +1015,20 @@
       "Quid alter calvus carbonem vocavit?",
       "Cui convenit querela secundum Phaedrum?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": false,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": true,
+      "evidence": {
+        "participioPerfecto": "defectus",
+        "ut": "carbonem, ut aiunt (comparativa)"
+      }
+    }
   },
   {
     "id": "fedro-app-12",
@@ -685,6 +1052,19 @@
       "Quid asinus de se ipso dixit?",
       "Quid accidisset si aliquis prudentior lyram invenisset?"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "ablativoAbsoluto": false,
+      "participioPresente": true,
+      "infinitivo": false,
+      "participioPerfecto": true,
+      "aci": false,
+      "cumHistorico": false,
+      "ut": false,
+      "evidence": {
+        "participioPresente": "iacentem",
+        "participioPerfecto": "tactae"
+      }
+    }
   }
 ]

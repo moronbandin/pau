@@ -5,6 +5,15 @@ subject: latin
 description: Textos de Eutropio e Fedro para a PAU de Latín, con ficha individual, vocabulario e tradución.
 ---
 {% from "icons.njk" import icon %}
+{% set grammarTags = [
+  { key: "ablativoAbsoluto", prop: "gAblativoAbsoluto", short: "Abl. abs.", label: "Ablativo absoluto", hint: "Substantivo + participio (ou substantivo + substantivo/adxectivo) en ablativo, sintacticamente independentes da oración principal." },
+  { key: "participioPresente", prop: "gParticipioPresente", short: "Part. pres.", label: "Participio de presente", hint: "Forma de participio activo de presente (-ns, -ntis)." },
+  { key: "infinitivo", prop: "gInfinitivo", short: "Infinitivo", label: "Infinitivo", hint: "Calquera infinitivo, complementario ou dentro doutra estrutura." },
+  { key: "participioPerfecto", prop: "gParticipioPerfecto", short: "Part. perf.", label: "Participio de perfecto", hint: "Participio de perfecto pasivo (-tus/-sus/-xus), incluídas as formas de verbos deponentes." },
+  { key: "aci", prop: "gAci", short: "ACI", label: "ACI (acusativo + infinitivo)", hint: "Subordinada de infinitivo con suxeito en acusativo (estilo indirecto, verbos de mandato, desexo...). Non inclúe construcións de nominativo + infinitivo (NCI)." },
+  { key: "cumHistorico", prop: "gCumHistorico", short: "Cum hist.", label: "Cum histórico", hint: "«Cum» coma conxunción subordinante + subxuntivo (narrativo/circunstancial). Non inclúe «cum» coma preposición + ablativo (\"con\")." },
+  { key: "ut", prop: "gUt", short: "Ut", label: "Ut", hint: "Calquera uso de «ut»: consecutivo (+ subxuntivo), temporal (\"cando\") ou comparativo (\"como\"), ambos os dous últimos + indicativo." }
+] %}
 <div class="section-head">
   <div class="wrap">
     <p class="breadcrumb"><a href="/latin/">Latín</a> / Textos</p>
@@ -15,23 +24,57 @@ description: Textos de Eutropio e Fedro para a PAU de Latín, con ficha individu
 </div>
 <div class="section-body">
   <div class="wrap">
-    {% set groups = latinTexts | groupByAuthor %}
-    {% for g in groups %}
-    <div class="author-block">
-      <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
-      <div class="text-grid">
-        {% for t in g.texts %}
-        <a class="text-card" href="/latin/textos/{{ t.slug }}/">
-          <span class="ref">{{ t.ref }}</span>
-          <span class="text-card-body">
-            <h3>{{ t.title }}</h3>
-            <p>{{ t.text | firstWords(14) }}</p>
-          </span>
-          {{ icon("chevron", "chevron-end") }}
-        </a>
+
+    <div class="glass-card grammar-filter" data-grammar-filter="#latinTextList" data-grammar-count="#latinGrammarCount" data-grammar-empty="#latinGrammarEmpty">
+      <div class="grammar-filter-head">
+        <div>
+          <h2>Filtrar por morfosintaxe</h2>
+          <p>Preme unha etiqueta para esixila (✓, debe ter esa característica) ou excluíla (✕, non debe tela); preme de novo para quitar o filtro. <span class="grammar-filter-count"><span id="latinGrammarCount">{{ latinTexts.length }}</span> de {{ latinTexts.length }}</span> textos.</p>
+        </div>
+        <button type="button" class="grammar-filter-reset btn btn-outline btn-small">Limpar filtros</button>
+      </div>
+      <div class="grammar-filter-grid">
+        {% for gt in grammarTags %}
+        <button type="button" class="grammar-chip" data-prop="{{ gt.prop }}" data-state="any" title="{{ gt.hint }}">{{ gt.label }}</button>
         {% endfor %}
       </div>
     </div>
-    {% endfor %}
+
+    <div id="latinTextList">
+      {% set groups = latinTexts | groupByAuthor %}
+      {% for g in groups %}
+      <div class="author-block">
+        <h2>{{ g.author }} <span class="work">— {{ g.work }} ({{ g.texts.length }} textos)</span></h2>
+        <div class="text-grid">
+          {% for t in g.texts %}
+          <a class="text-card" href="/latin/textos/{{ t.slug }}/"
+            data-g-ablativo-absoluto="{{ t.grammar.ablativoAbsoluto }}"
+            data-g-participio-presente="{{ t.grammar.participioPresente }}"
+            data-g-infinitivo="{{ t.grammar.infinitivo }}"
+            data-g-participio-perfecto="{{ t.grammar.participioPerfecto }}"
+            data-g-aci="{{ t.grammar.aci }}"
+            data-g-cum-historico="{{ t.grammar.cumHistorico }}"
+            data-g-ut="{{ t.grammar.ut }}">
+            <span class="ref">{{ t.ref }}</span>
+            <span class="text-card-body">
+              <h3>{{ t.title }}</h3>
+              <p>{{ t.text | firstWords(14) }}</p>
+              <span class="tag-badges">
+                {% for gt in grammarTags %}
+                {% if t.grammar[gt.key] %}
+                <span class="tag-badge" title="{{ gt.hint }}">{{ gt.short }}</span>
+                {% endif %}
+                {% endfor %}
+              </span>
+            </span>
+            {{ icon("chevron", "chevron-end") }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      <p id="latinGrammarEmpty" class="grammar-filter-empty">Ningún texto cumpre esa combinación de filtros.</p>
+    </div>
   </div>
 </div>
+<script src="/js/grammarFilter.js"></script>

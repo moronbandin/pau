@@ -10,6 +10,15 @@ eleventyComputed:
   title: "{{ text.title }}"
   description: "Texto de {{ text.author }} ({{ text.ref }}) para a PAU de Grego: orixinal, vocabulario e tradución."
 ---
+{% set grammarTags = [
+  { key: "xenitivoAbsoluto", label: "Xenitivo absoluto", desc: "Substantivo + participio en xenitivo, sintacticamente independentes da oración principal." },
+  { key: "participioPresente", label: "Participio de presente", desc: "Participio de presente (aspecto durativo)." },
+  { key: "participioAoristo", label: "Participio de aoristo", desc: "Participio de aoristo (aspecto puntual). Non inclúe adxectivos verbais en -τος nin participios de futuro." },
+  { key: "infinitivo", label: "Infinitivo", desc: "Calquera infinitivo, incluídos os que dependen de dativo." },
+  { key: "aci", label: "ACI (acusativo + infinitivo)", desc: "Subordinada de infinitivo con suxeito en acusativo. Non inclúe subordinadas finitas con ὅτι/ὡς nin construcións de dativo + infinitivo." },
+  { key: "oracionsFinais", label: "Oracións finais (ἵνα / ὅπως)", desc: "Oracións finais introducidas por ἵνα ou ὅπως, incluída a construción de esforzo ὅπως + futuro de indicativo." },
+  { key: "oracionsConsecutivas", label: "Oracións consecutivas (ὥστε)", desc: "Oracións consecutivas introducidas por ὥστε, habitualmente coa correlación οὕτω(ς)...ὥστε." }
+] %}
 <div class="text-detail">
   <p class="breadcrumb"><a href="/grego/">Grego</a> / <a href="/grego/textos/">Textos</a> / {{ text.author }}</p>
   <div class="meta">
@@ -23,6 +32,23 @@ eleventyComputed:
     <h2>Texto orixinal</h2>
     <div class="original-text greek-font">{{ text.text }}</div>
   </div>
+
+  {% if text.grammar %}
+  <div class="glass-card text-panel grammar-tags-panel">
+    <h2>Etiquetas gramaticais e sintácticas</h2>
+    <div class="tag-badges">
+      {% for gt in grammarTags %}
+      {% if text.grammar[gt.key] %}
+      <span class="tag-badge greek-font" title="{{ gt.desc }}">{{ gt.label }} — <em style="font-style:italic;font-weight:500">{{ text.grammar.evidence[gt.key] }}</em></span>
+      {% endif %}
+      {% endfor %}
+      {% if not (text.grammar.xenitivoAbsoluto or text.grammar.participioPresente or text.grammar.participioAoristo or text.grammar.infinitivo or text.grammar.aci or text.grammar.oracionsFinais or text.grammar.oracionsConsecutivas) %}
+      <span class="tag-badge tag-badge-none">Ningunha das características desta escolma (bo texto para practicar sintaxe básica).</span>
+      {% endif %}
+    </div>
+    <p style="margin:10px 0 0"><a href="/grego/textos/">Ver e filtrar todos os textos por estas características →</a></p>
+  </div>
+  {% endif %}
 
   {% if text.notes and text.notes.length %}
   <div class="glass-card text-panel">

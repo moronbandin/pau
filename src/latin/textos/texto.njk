@@ -10,6 +10,15 @@ eleventyComputed:
   title: "{{ text.title }}"
   description: "Texto de {{ text.author }} ({{ text.ref }}) para a PAU de Latín: orixinal e tradución."
 ---
+{% set grammarTags = [
+  { key: "ablativoAbsoluto", label: "Ablativo absoluto", desc: "Substantivo + participio en ablativo, sintacticamente independentes da oración principal." },
+  { key: "participioPresente", label: "Participio de presente", desc: "Forma de participio activo de presente (-ns, -ntis)." },
+  { key: "infinitivo", label: "Infinitivo", desc: "Calquera infinitivo, complementario ou dentro doutra estrutura." },
+  { key: "participioPerfecto", label: "Participio de perfecto", desc: "Participio de perfecto pasivo, incluídas as formas de verbos deponentes." },
+  { key: "aci", label: "ACI (acusativo + infinitivo)", desc: "Subordinada de infinitivo con suxeito en acusativo. Non inclúe construcións de nominativo + infinitivo (NCI)." },
+  { key: "cumHistorico", label: "Cum histórico", desc: "«Cum» coma conxunción subordinante + subxuntivo. Non inclúe «cum» coma preposición + ablativo." },
+  { key: "ut", label: "Ut", desc: "Uso consecutivo (+ subxuntivo), temporal ou comparativo (+ indicativo) de «ut»." }
+] %}
 <div class="text-detail">
   <p class="breadcrumb"><a href="/latin/">Latín</a> / <a href="/latin/textos/">Textos</a> / {{ text.author }}</p>
   <div class="meta">
@@ -23,6 +32,23 @@ eleventyComputed:
     <h2>Texto orixinal</h2>
     <div class="original-text {% if text.isVerse %}is-verse{% endif %}">{{ text.text }}</div>
   </div>
+
+  {% if text.grammar %}
+  <div class="glass-card text-panel grammar-tags-panel">
+    <h2>Etiquetas gramaticais e sintácticas</h2>
+    <div class="tag-badges">
+      {% for gt in grammarTags %}
+      {% if text.grammar[gt.key] %}
+      <span class="tag-badge" title="{{ gt.desc }}">{{ gt.label }} — <em style="font-style:italic;font-weight:500">{{ text.grammar.evidence[gt.key] }}</em></span>
+      {% endif %}
+      {% endfor %}
+      {% if not (text.grammar.ablativoAbsoluto or text.grammar.participioPresente or text.grammar.infinitivo or text.grammar.participioPerfecto or text.grammar.aci or text.grammar.cumHistorico or text.grammar.ut) %}
+      <span class="tag-badge tag-badge-none">Ningunha das características desta escolma (bo texto para practicar sintaxe básica).</span>
+      {% endif %}
+    </div>
+    <p style="margin:10px 0 0"><a href="/latin/textos/">Ver e filtrar todos os textos por estas características →</a></p>
+  </div>
+  {% endif %}
 
   <div class="toggle-row">
     <button class="btn btn-outline btn-small" id="toggleTranslation">Amosar tradución</button>

@@ -34,7 +34,22 @@
       "Διὰ τί ἐβούλετο Δαρεῖος τὼ παῖδε παρεῖναι;",
       "Τίνα μεταπέμπεται Δαρεῖος;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": true,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "παρὼν",
+        "participioAoristo": "λαβὼν",
+        "infinitivo": "παρεῖναι",
+        "aci": "ἐβούλετο τὼ παῖδε... παρεῖναι"
+      }
+    }
   },
   {
     "id": "xenofonte-2",
@@ -72,7 +87,20 @@
       "Τίνα μᾶλλον ἐφίλει ἡ Παρύσατις;",
       "Τί βουλεύεται Κῦρος μετὰ τὸν κίνδυνον;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": true,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioAoristo": "ἐξαιτησαμένη; κινδυνεύσας; ἀτιμασθείς",
+        "oracionsFinais": "ὅπως... (cláusula de esforzo con futuro de indicativo)"
+      }
+    }
   },
   {
     "id": "xenofonte-3",
@@ -103,7 +131,20 @@
       "Πῶς ἐθήρευε Κῦρος τὰ θηρία;",
       "Τίς ποταμὸς ῥεῖ διὰ τοῦ παραδείσου;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": false,
+      "infinitivo": true,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "οἰκουμένην",
+        "infinitivo": "γυμνάσαι"
+      }
+    }
   },
   {
     "id": "xenofonte-4",
@@ -131,7 +172,21 @@
       "Τίνας μεταπέμπεται Κῦρος;",
       "Ποῖ ἔφη Κῦρος τὴν ὁδὸν ἔσεσθαι;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": true,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioAoristo": "μεταπεμψάμενος",
+        "infinitivo": "λέγειν; ἀναπείθειν",
+        "aci": "κελεύει αὐτοὺς λέγειν... καὶ ἀναπείθειν"
+      }
+    }
   },
   {
     "id": "xenofonte-5",
@@ -162,7 +217,19 @@
       "Τίνες τὰ θηρία ἐδίωκον;"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Descrición da rexión da marxe dereita do Éufrates"
+    "tituloHistorico": "Descrición da rexión da marxe dereita do Éufrates",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": false,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἔχων"
+      }
+    }
   },
   {
     "id": "xenofonte-6",
@@ -195,7 +262,20 @@
       "Πόσοι τῶν ἀρίστων μετὰ Κύρου ἀπέθανον;"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Morte de Ciro"
+    "tituloHistorico": "Morte de Ciro",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ὢν; Παίοντα",
+        "participioAoristo": "εἰπὼν"
+      }
+    }
   },
   {
     "id": "xenofonte-7",
@@ -223,7 +303,20 @@
       "Τίνων ἐπόθουν οἱ στρατιῶται;",
       "Ἐνόμιζον ὄψεσθαι πάλιν τοὺς οἰκείους;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": false,
+      "infinitivo": true,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἐννοούμενοι; ἔχοντες; δυνάμενοι; διακείμενοι",
+        "infinitivo": "καθεύδειν; ὄψεσθαι"
+      }
+    }
   },
   {
     "id": "xenofonte-8",
@@ -254,7 +347,19 @@
       "Τίς ἦν ὕπαρχος τῆς Ἀρμενίας;",
       "Τίνι φίλος ἦν Τιρίβαζος;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioAoristo": "γενόμενος"
+      }
+    }
   },
   {
     "id": "xenofonte-9",
@@ -278,7 +383,17 @@
       "Τί ἄλλο ἦν ἐν ταῖς οἰκίαις;"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Descrición dun poboado armenio"
+    "tituloHistorico": "Descrición dun poboado armenio",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": false,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {}
+    }
   },
   {
     "id": "xenofonte-10",
@@ -306,7 +421,21 @@
       "Περιέβαλλον τοὺς στρατηγοὺς δακρύοντες;",
       "Τί ἐποίησαν οἱ στρατιῶται μετὰ ταῦτα;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": true,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "xenitivoAbsoluto": "βοώντων τῶν στρατιωτῶν; ὅτου... παρεγγυήσαντος",
+        "participioPresente": "βοώντων; παρεγγυώντων; δακρύοντες",
+        "participioAoristo": "παρεγγυήσαντος"
+      }
+    }
   },
   {
     "id": "xenofonte-11",
@@ -340,7 +469,19 @@
     ],
     "fonte": "real",
     "fonteAno": 2025,
-    "fonteConvocatoria": "extraordinaria"
+    "fonteConvocatoria": "extraordinaria",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioAoristo": "δόντες; δείξας"
+      }
+    }
   },
   {
     "id": "xenofonte-12",
@@ -370,7 +511,19 @@
       "Τί φοροῦσιν οἱ Θρᾷκες ἐπὶ ταῖς κεφαλαῖς;",
       "Ποῦ ἄλλο φοροῦσιν οἱ Θρᾷκες χιτῶνας;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": false,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": true,
+      "evidence": {
+        "oracionsConsecutivas": "οὕτως... ὥστε... ἐπήγνυτο"
+      }
+    }
   },
   {
     "id": "apolodoro-13",
@@ -408,7 +561,20 @@
       "Πόσους ὀφθαλμοὺς εἶχον οἱ Κύκλωπες;",
       "Ποῦ ἔρριψεν Οὐρανὸς τοὺς παῖδας;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἔχοντες",
+        "participioAoristo": "γήμας; προσαγορευθέντας; δήσας"
+      }
+    }
   },
   {
     "id": "apolodoro-14",
@@ -443,7 +609,22 @@
       "Τίς τῷ Οὐρανῷ ἐπιτίθεται;",
       "Τί ἐγένετο ἐκ τῶν σταλαγμῶν τοῦ αἵματος;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": true,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἀγανακτοῦσα; ῥέοντος",
+        "participioAoristo": "ῥιφέντων; ἀποτεμὼν",
+        "infinitivo": "ἐπιθέσθαι",
+        "aci": "πείθει τοὺς Τιτᾶνας ἐπιθέσθαι"
+      }
+    }
   },
   {
     "id": "apolodoro-15",
@@ -477,7 +658,19 @@
       "Τίνες φύλακες τῶν Τιτάνων γίγνονται;",
       "Τίνα ἀρχὴν λαγχάνει ὁ Ζεύς;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": false,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioAoristo": "ὁπλισθέντες; καθείρξαντες"
+      }
+    }
   },
   {
     "id": "apolodoro-16",
@@ -510,7 +703,21 @@
       "Παρὰ τίνων μανθάνει ἡ Δημήτηρ τὴν ἀλήθειαν;",
       "Ποῖ ἔρχεται ἡ Δημήτηρ εἰκασθεῖσα γυναικί;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": true,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "xenitivoAbsoluto": "Διὸς συνεργοῦντος",
+        "participioPresente": "συνεργοῦντος; ζητοῦσα; ὀργιζομένη",
+        "participioAoristo": "ἐρασθεὶς; μαθοῦσα; εἰκασθεῖσα"
+      }
+    }
   },
   {
     "id": "apolodoro-17",
@@ -548,7 +755,21 @@
     ],
     "fonte": "real",
     "fonteAno": 2025,
-    "fonteConvocatoria": "ordinaria"
+    "fonteConvocatoria": "ordinaria",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἐφιπτάμενος",
+        "participioAoristo": "πλάσας; κρύψας; προσηλωθεὶς",
+        "infinitivo": "προσηλῶσαι"
+      }
+    }
   },
   {
     "id": "apolodoro-18",
@@ -587,7 +808,20 @@
       "Τίνα παῖδα γεννᾷ ἡ Μήδεια ἐν Ἀθήναις;"
     ],
     "fonte": "ia",
-    "tituloHistorico": "Μήδεια"
+    "tituloHistorico": "Μήδεια",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "φεύγουσα; ὄντας",
+        "participioAoristo": "λαβοῦσα; ἀναστήσαντες; γαμηθεῖσα"
+      }
+    }
   },
   {
     "id": "apolodoro-19",
@@ -618,7 +852,22 @@
       "Διὰ τίνος μέρους ἡ Χίμαιρα πῦρ ἔβαλλεν;",
       "Τί ἐλυμαίνετο ἡ Χίμαιρα;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": true,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "νομίζων",
+        "participioAoristo": "ἀναγνοὺς",
+        "infinitivo": "ἀποκτείνειν",
+        "aci": "νομίζων αὐτὸν... διαφθαρήσεσθαι"
+      }
+    }
   },
   {
     "id": "apolodoro-20",
@@ -649,7 +898,21 @@
       "Τίνα ἐπιβοᾶται ἡ Ἀλκμήνη;",
       "Πῶς διέφθειρεν ὁ Ἡρακλῆς τοὺς δράκοντας;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": true,
+      "participioPresente": true,
+      "participioAoristo": false,
+      "infinitivo": true,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "xenitivoAbsoluto": "τοῦ παιδὸς ὄντος ὀκταμηνιαίου; ἐπιβοωμένης... Ἀλκμήνης",
+        "participioPresente": "ὄντος; θέλουσα; ἄγχων",
+        "infinitivo": "διαφθείρειν"
+      }
+    }
   },
   {
     "id": "apolodoro-21",
@@ -684,7 +947,21 @@
       "Πόθεν ἔμαθεν ἡ Σφὶγξ τὸ αἴνιγμα;",
       "Ποῦ ἐκαθέζετο ἡ Σφίγξ;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": true,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "xenitivoAbsoluto": "τούτου... βασιλεύοντος",
+        "participioPresente": "βασιλεύοντος; ἔχον",
+        "participioAoristo": "μαθοῦσα"
+      }
+    }
   },
   {
     "id": "apolodoro-22",
@@ -719,7 +996,22 @@
       "Τίς ἦν ἡ Ἀντιγόνη;",
       "Τί ἔπαθεν ἡ Ἀντιγόνη φωραθεῖσα;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": true,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ζῶσα",
+        "participioAoristo": "παραλαβὼν; κηρύξας; κλέψασα; φωραθεῖσα",
+        "infinitivo": "θάπτειν",
+        "aci": "κηρύξας μηδένα θάπτειν"
+      }
+    }
   },
   {
     "id": "apolodoro-23",
@@ -756,7 +1048,21 @@
       "Τίς βασιλεύει Μυκηνῶν μετὰ τὸν Ἀγαμέμνονα;",
       "Τίνα ἐκκλέπτει ἡ Ἠλέκτρα;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": true,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἐνδυόμενος",
+        "participioAoristo": "καταντήσας",
+        "infinitivo": "τρέφειν"
+      }
+    }
   },
   {
     "id": "apolodoro-24",
@@ -787,6 +1093,19 @@
       "Πόσους ὀφθαλμοὺς εἶχεν ὁ Πολύφημος;",
       "Ποῖος ἦν ὁ χαρακτὴρ τοῦ Πολυφήμου;"
     ],
-    "fonte": "ia"
+    "fonte": "ia",
+    "grammar": {
+      "xenitivoAbsoluto": false,
+      "participioPresente": true,
+      "participioAoristo": true,
+      "infinitivo": false,
+      "aci": false,
+      "oracionsFinais": false,
+      "oracionsConsecutivas": false,
+      "evidence": {
+        "participioPresente": "ἔχων",
+        "participioAoristo": "καταλιπὼν; ἀποβὰς"
+      }
+    }
   }
 ]
