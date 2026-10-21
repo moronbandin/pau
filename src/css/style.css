@@ -403,6 +403,10 @@ h1,h2,h3{letter-spacing:-.01em}
 }
 .pending-badge .icon{width:12px;height:12px}
 .pending-badge.is-ready{background:rgba(20,140,90,.12);color:#0e7a52}
+.pending-status{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.pending-download{display:inline-flex;align-items:center;gap:4px;font-size:.74rem;font-weight:700;white-space:nowrap}
+.pending-download:hover{text-decoration:underline}
+.pending-download .icon{width:12px;height:12px}
 .pending-body{margin:14px 0 0;padding-top:14px;border-top:1px solid var(--border-soft);font-size:.86rem;color:var(--ink-faint);line-height:1.6}
 .pending-footnote{margin:22px 0 0;font-size:.82rem;color:var(--ink-faint)}
 
