@@ -402,6 +402,7 @@ h1,h2,h3{letter-spacing:-.01em}
   background:rgba(180,120,10,.12);color:#8a5c0a;white-space:nowrap;
 }
 .pending-badge .icon{width:12px;height:12px}
+.pending-badge.is-ready{background:rgba(20,140,90,.12);color:#0e7a52}
 .pending-body{margin:14px 0 0;padding-top:14px;border-top:1px solid var(--border-soft);font-size:.86rem;color:var(--ink-faint);line-height:1.6}
 .pending-footnote{margin:22px 0 0;font-size:.82rem;color:var(--ink-faint)}
 
